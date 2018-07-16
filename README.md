@@ -42,7 +42,7 @@ ln -s ~/Dropbox/tools-config/.vim ~/.vim
 ~/Dropbox/tools-config/vim/powerline/fonts/install.sh
 Copying fonts...
 Resetting font cache, this may take a moment...
-Powerline fonts installed to /home/jcasse/.local/share/fonts
+Powerline fonts installed to ~/.local/share/fonts
 ```
 
 ### References
