@@ -1,0 +1,7 @@
+cd js
+wget -vc "https://code.jquery.com/jquery-3.2.1.min.js" "https://code.jquery.com/jquery-3.2.1.min.map" 
+brew install wget
+wget
+wget -vc "https://code.jquery.com/jquery-3.2.1.min.js" "https://code.jquery.com/jquery-3.2.1.min.map" 
+ls -aFlrth
+python3

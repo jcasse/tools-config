@@ -1,0 +1,128 @@
+ls
+cd ..
+ls
+cd app
+ls
+cd ..
+ls
+cd data/
+ls
+cd kb
+ls
+cd .
+cd ..
+ls
+cd input/
+ls
+cd ..
+ls
+cd db
+ls
+cd journal/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd data/
+ls
+cd db/
+ls
+cd ..
+ls
+ls
+ls
+cd Beyond/GitHub/
+ls
+ls
+ls -al
+cd ..
+ls
+ls -al
+ls
+rm prf agenda/
+rm -rf agenda/
+ls
+view notes.org 
+ls
+ls -al
+ls
+ls
+ls -al
+touch .gitignore
+ls
+ls -al
+ls
+cd Personal/GitHub/
+ls
+cd orgmode/
+ls
+ls -al
+ls
+lsls
+ls
+clear
+
+ls
+ls
+cd ..
+ls
+cd emacs/
+ls
+cp README.md ../orgmode/
+cd ../orgmode/
+ls
+ls
+cd ../emacs/
+ls
+cd ..
+ls
+cd co-clustering/
+ls
+cd ..
+ls
+cd orgmode/
+ls
+ls -al
+ls
+ls -al
+git status
+git remote add origin git@github.com:jcasse/orgmode.git
+git push -u origin master
+ls
+ls
+cd Personal/GitHub/orgmode/
+ls
+ls -al
+cat notes.org 
+ls
+cat notes.org~
+git status
+git diff
+ls
+cat notes.org 
+ls
+ls
+clear
+
+cat notes.org 
+clearls
+clear
+
+cat notes.org 
+ls
+cat notes.org 
+ls
+cp notes.org emacs.org
+ls
+ls
+cd ../orgmode/
+ls
+touch macbookpro.org
+ls
+(defun test () "Hi!")
+(test)
+ack -i getComponentList .
+grep -nrI getComponentList *

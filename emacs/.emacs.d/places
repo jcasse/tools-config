@@ -1,0 +1,26 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/jcasse/"
+  (dired-filename . "/Users/jcasse/Dropbox"))
+ ("/Users/jcasse/Dropbox/"
+  (dired-filename . "/Users/jcasse/Dropbox/orgmode"))
+ ("/Users/jcasse/Dropbox/orgmode/"
+  (dired-filename . "/Users/jcasse/Dropbox/orgmode/macbookpro.org"))
+ ("/Users/jcasse/Dropbox/emacs/"
+  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d"))
+ ("/Users/jcasse/Dropbox/emacs/.emacs.d/"
+  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d/elpa"))
+ ("/Users/jcasse/Personal/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub"))
+ ("/Users/jcasse/Personal/GitHub/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/.."))
+ ("/Users/jcasse/Dropbox/emacs/.emacs.d/init.el" . 215)
+ ("/Users/jcasse/Dropbox/emacs/.emacs.d/elpa/evil-1.2.13/"
+  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d/elpa/evil-1.2.13/.."))
+ ("/Users/jcasse/Dropbox/emacs/.emacs.d/eshell/"
+  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d/eshell/.."))
+ ("/Users/jcasse/Dropbox/emacs/.emacs.d/local-packages/"
+  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d/local-packages/.."))
+ ("/Users/jcasse/Dropbox/emacs/.emacs.d/elpa/flycheck-0.23/"
+  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d/elpa/flycheck-0.23/.."))
+ ("/Users/jcasse/Dropbox/emacs/.emacs.d/elpa/"
+  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d/elpa/flycheck-0.23")))
