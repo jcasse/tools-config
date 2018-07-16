@@ -8,7 +8,7 @@
 Configuratoin files for the various tools I use in Linux and OS X.
 
 ```sh
-git clone git@github.com:jcasse/tools-config.git
+git clone git@github.com:jcasse/tools-config.git ~/Dropbox/tools-config
 ```
 
 ## Emacs
@@ -17,10 +17,9 @@ git clone git@github.com:jcasse/tools-config.git
 
 1. In a shell,
 ```sh
-cd ~
-mv .emacs .emacs.bak
-mv .emacs.d .emacs.d.bak
-ln -s /path/to/tools-config/emacs/.emacs.d .emacs.d
+mv ~/.emacs ~/.emacs.bak
+mv ~/.emacs.d ~/.emacs.d.bak
+ln -s ~/Dropbox/tools-config/emacs/.emacs.d ~/.emacs.d
 ```
 2. Open Emacs and type the following command.
 `M-x package-install RET use-package RET`
@@ -38,11 +37,9 @@ Type the command `:LLPStartPreview` from within vim to launch the previewer.
 
 ```sh
 mv ~/.vimrc ~/.vimrc.bak
-ln -s ~/Dropbox/tool-config/.vimrc ~/.vimrc
-ln -s ~/Dropbox/tool-config/.vim ~/.vim
-git clone git@github.com:powerline/fonts.git ~/Dropbox/tools-config/vim/fonts
-cd fonts
-./install.sh
+ln -s ~/Dropbox/tools-config/.vimrc ~/.vimrc
+ln -s ~/Dropbox/tools-config/.vim ~/.vim
+~/Dropbox/tools-config/vim/powerline/fonts/install.sh
 Copying fonts...
 Resetting font cache, this may take a moment...
 Powerline fonts installed to /home/jcasse/.local/share/fonts
@@ -60,17 +57,15 @@ Powerline fonts installed to /home/jcasse/.local/share/fonts
 ### Set up (OS X)
 
 ```sh
-cd ~
-mv .bash_profile .bash_profile.bak
-ln -s /path/to/tools-config/.bash_profile .bash_profile
+mv ~/.bash_profile ~/.bash_profile.bak
+ln -s ~/Dropbox/tools-config/.bash_profile ~/.bash_profile
 ```
 
 ### Set up (Linux)
 
 ```sh
-cd ~
-mv .bashrc .bashrc.bak
-ln -s /path/to/tools-config/.bashrc .bashrc
+mv ~/.bashrc ~/.bashrc.bak
+ln -s ~/Dropbox/tools-config/.bashrc ~/.bashrc
 ```
 
 ### References
@@ -101,4 +96,5 @@ Copyright (C) 2018 Juan Casse
 
 ## TODO:
 
-* [ ] add more customization
+* [ ] tmux
+* [ ] screen
