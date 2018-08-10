@@ -1,13 +1,13 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/jcasse/Personal/GitHub/ai/doc/statistics.tex" . 588)
- ("/Users/jcasse/Personal/GitHub/ai/doc/statistics.pdf" . 11582)
- ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 12065)
+(("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 10495)
+ ("/Users/jcasse/Personal/GitHub/ai/doc/statistics.pdf" . 11761)
+ ("/Users/jcasse/Personal/GitHub/ai/doc/statistics.tex" . 588)
+ ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 11256)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/endpoints.py" . 1403)
  ("/Users/jcasse/Dropbox/orgmode/perfecta.org" . 3902)
  ("/Users/jcasse/Personal/GitHub/ai/doc/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/ai/doc/_region_.pdf"))
  ("/Users/jcasse/Personal/GitHub/ai/doc/_region_.tex" . 810)
- ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 11316)
  ("/Applications/Emacs.app/Contents/Resources/lisp/doc-view.el.gz" . 69862)
  ("/Users/jcasse/Dropbox/"
   (dired-filename . "/Users/jcasse/Dropbox/orgmode"))

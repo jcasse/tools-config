@@ -301,6 +301,10 @@
 ;; Variables set via Emacs interface.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; NOTE: We chose to enable display-line-numbers-mode on a per-mode basis
+;;       instead of global, because we were not able to disable it for
+;;       Doc View mode with a hook.
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
