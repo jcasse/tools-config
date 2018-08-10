@@ -65,3 +65,11 @@ export HISTCONTROL="ignoredups:erasedups"
 # Vim-like editing in command line
 # By default, this is set to Emacs: set -o emacs
 # set -o vi
+
+# added by Juan Casse
+# Needed by Emacs
+export PATH="/Library/TeX/texbin:$PATH"
+
+# Execute the following to update the Finder PATH
+#launchctl setenv PATH $PATH
+#killall Dock

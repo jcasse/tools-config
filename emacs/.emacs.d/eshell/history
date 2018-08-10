@@ -1,21 +1,6 @@
 ls
 cd ..
 ls
-cd app
-ls
-cd ..
-ls
-cd data/
-ls
-cd kb
-ls
-cd .
-cd ..
-ls
-cd input/
-ls
-cd ..
-ls
 cd db
 ls
 cd journal/
@@ -126,3 +111,18 @@ ls
 (test)
 ack -i getComponentList .
 grep -nrI getComponentList *
+getenv PATH
+setenv PATH "$PATH:/Library/TeX/texbin"
+which latex
+ls /Library/TeX/texbin
+ls /Library/TeX/texbin/latex
+ls -la /Library/TeX/texbin/latex
+which latex
+which tex
+which pdftex
+getenv
+getenv PATH
+getenv
+getenv PATH
+getenv
+getenv PATH

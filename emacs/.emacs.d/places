@@ -1,26 +1,123 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/jcasse/"
-  (dired-filename . "/Users/jcasse/Dropbox"))
+(("/Users/jcasse/Personal/GitHub/ai/doc/statistics.tex" . 588)
+ ("/Users/jcasse/Personal/GitHub/ai/doc/statistics.pdf" . 11582)
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 12065)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/endpoints.py" . 1403)
+ ("/Users/jcasse/Dropbox/orgmode/perfecta.org" . 3902)
+ ("/Users/jcasse/Personal/GitHub/ai/doc/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/ai/doc/_region_.pdf"))
+ ("/Users/jcasse/Personal/GitHub/ai/doc/_region_.tex" . 810)
+ ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 11316)
+ ("/Applications/Emacs.app/Contents/Resources/lisp/doc-view.el.gz" . 69862)
  ("/Users/jcasse/Dropbox/"
   (dired-filename . "/Users/jcasse/Dropbox/orgmode"))
  ("/Users/jcasse/Dropbox/orgmode/"
-  (dired-filename . "/Users/jcasse/Dropbox/orgmode/macbookpro.org"))
- ("/Users/jcasse/Dropbox/emacs/"
-  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d"))
- ("/Users/jcasse/Dropbox/emacs/.emacs.d/"
-  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d/elpa"))
- ("/Users/jcasse/Personal/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub"))
+  (dired-filename . "/Users/jcasse/Dropbox/orgmode/perfecta.org"))
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/"
+  (dired-filename . "/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/elpa"))
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/elpa/"
+  (dired-filename . "/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/elpa/auctex-12.1.1"))
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/elpa/auctex-12.1.1/"
+  (dired-filename . "/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/elpa/auctex-12.1.1/auctex.spec"))
+ ("/Users/jcasse/"
+  (dired-filename . "/Users/jcasse/Dropbox"))
+ ("/Users/jcasse/.emacs.d/elpa/auctex-12.1.1/auctex-autoloads.el" . 13865)
+ ("/Users/jcasse/Dropbox/orgmode/macbookpro.org" . 151)
+ ("/Users/jcasse/Dropbox/orgmode/machinelearning.org" . 656)
+ ("/Users/jcasse/Dropbox/orgmode/datascience.org" . 309)
+ ("/Users/jcasse/Personal/GitHub/ai/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/ai/doc"))
+ ("/Users/jcasse/Dropbox/orgmode/sandman.org" . 402)
+ ("/Users/jcasse/Dropbox/tools-config/bash/.bash_profile" . 2657)
+ ("/Users/jcasse/Dropbox/orgmode/go.org" . 194)
+ ("/Users/jcasse/Dropbox/data/data.asc" . 4919)
+ ("/Users/jcasse/Dropbox/data/"
+  (dired-filename . "/Users/jcasse/Dropbox/data/data.asc"))
+ ("/Users/jcasse/Dropbox/tools-config/"
+  (dired-filename . "/Users/jcasse/Dropbox/tools-config/emacs"))
+ ("/Users/jcasse/Dropbox/tools-config/emacs/"
+  (dired-filename . "/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d"))
+ ("/Users/jcasse/Dropbox/orgmode/python.org" . 3865)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/helper.py"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/helper.py" . 14125)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/xform.py" . 8695)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/.."))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/tests"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/utils.py" . 7164)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/tests/test_utils.py" . 1822)
+ ("/Users/jcasse/Dropbox/orgmode/git.org" . 5131)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/tests/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/tests/kb_concepts.lisp"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/tests/kb_concepts.lisp" . 247)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/.idea/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/.idea/.."))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/doc/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/doc/.."))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/newFile.py"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/newFile.py" . 1116)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/README.md" . 10959)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/endpoints.sh" . 382)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/init.py" . 201)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/web_service.py" . 1001)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/process_registry.py" . 834)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/utils.py" . 3126)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/perfecta.py" . 7810)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/__init__.py" . 680)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/diskfilesystem.py" . 94)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/__init__.py" . 7306)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/forms.py" . 209)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/Dockerfile" . 5206)
+ ("/Users/jcasse/Beyond/Projects/Oil Gas/RTE/requirements.txt" . 601)
+ ("/ssh:jcasse@beast-1.beyond.ai:/home/jcasse/.bash_history" . 2226)
+ ("/Users/jcasse/Dropbox/orgmode/docker.org" . 6197)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/perfecta-web-ide.conf" . 387)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/utils_helper.py" . 3418)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js/project.js"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js/project.js" . 54728)
+ ("/Users/jcasse/Dropbox/orgmode/gnu.org" . 587)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/run.py" . 23)
  ("/Users/jcasse/Personal/GitHub/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/.."))
- ("/Users/jcasse/Dropbox/emacs/.emacs.d/init.el" . 215)
- ("/Users/jcasse/Dropbox/emacs/.emacs.d/elpa/evil-1.2.13/"
-  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d/elpa/evil-1.2.13/.."))
- ("/Users/jcasse/Dropbox/emacs/.emacs.d/eshell/"
-  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d/eshell/.."))
- ("/Users/jcasse/Dropbox/emacs/.emacs.d/local-packages/"
-  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d/local-packages/.."))
- ("/Users/jcasse/Dropbox/emacs/.emacs.d/elpa/flycheck-0.23/"
-  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d/elpa/flycheck-0.23/.."))
- ("/Users/jcasse/Dropbox/emacs/.emacs.d/elpa/"
-  (dired-filename . "/Users/jcasse/Dropbox/emacs/.emacs.d/elpa/flycheck-0.23")))
+  (dired-filename . "/Users/jcasse/Personal/GitHub/vim-tmux"))
+ ("/Users/jcasse/Dropbox/orgmode/javascript.org" . 545)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/config.py" . 272)
+ ("/Users/jcasse/Dropbox/orgmode/windows.org" . 9128)
+ ("/Users/jcasse/Dropbox/orgmode/utils.org" . 103)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/perfecta-web-ide.wsgi" . 422)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/docker-run-wrapper.sh" . 667)
+ ("/Users/jcasse/Dropbox/orgmode/os.org" . 1636)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/fancytree.py" . 676)
+ ("/Users/jcasse/Beyond/GitHub/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/example.py" . 1074)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Weapons"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Weapons/weapons-kb.json" . 3123)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Weapons/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Weapons/weapons-features.json"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/perfecta_helper.py" . 6963)
+ ("/Users/jcasse/Dropbox/orgmode/notes.org" . 792)
+ ("/Users/jcasse/Dropbox/orgmode/quantum.org" . 86)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/treeabuse.py" . 3986)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/project.py" . 4371)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/randomboxes.py" . 1150)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/processAbuse.py" . 485)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/perfectaRunAbuse.py" . 959)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/dragdrop.py" . 1518)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/account.py" . 404)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/constants.py" . 996)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Weapons/weapons-features.json" . 500)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Maximal/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Maximal/maximal-kb.lisp"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Maximal/maximal-kb.lisp" . 1197)
+ ("/Users/jcasse/Dropbox/orgmode/T430s.org" . 8893)
+ ("/Users/jcasse/Personal/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub")))

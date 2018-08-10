@@ -2,6 +2,11 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/jcasse/Personal/GitHub/ai/" . "doc/")
+ ("/Users/jcasse/Dropbox/tools-config/emacs/" . ".emacs.d/")
+ ("/Users/jcasse/Dropbox/tools-config/" . "emacs/")
+ ("/Users/jcasse/Beyond/Projects/Oil Gas/" . "RTE/")
+ ("/Users/jcasse/Beyond/Projects/" . "Oil Gas/")
  ("/Users/jcasse/Dropbox/emacs/" . ".emacs.d/")
  ("/home/juan/Dropbox/emacs/" . ".emacs.d/")
  ("/home/juan/Dropbox/" . "emacs/")
@@ -24,15 +29,15 @@
  ("/Users/" . "jcasse/")
  ("/Users/jcasse/Beyond/IP/Perfecta/" . "Examples/")
  ("/Users/jcasse/Beyond/IP/" . "Perfecta/")
- ("/Users/jcasse/Dropbox/" . "emacs/")
+ ("/Users/jcasse/Dropbox/" . "tools-config/")
  ("/usr/" . "local/")
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/" . "examples/")
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/data/" . "input/")
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/" . "input/")
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/" . "data/")
  ("/Users/jcasse/Personal/GitHub/orgmode/" . "agenda/")
  ("/Users/jcasse/Personal/GitHub/emacs/.emacs.d/" . "local-packages/")
  ("/Users/jcasse/Personal/GitHub/emacs/" . ".emacs.d/")
- ("/Users/jcasse/Personal/GitHub/" . "emacs/")
+ ("/Users/jcasse/Personal/GitHub/" . "ai/")
  ("/Users/jcasse/Personal/" . "GitHub/")
  ("/Users/jcasse/Beyond/GitHub/" . "perfecta-python-interface/")
  ("/Users/jcasse/Beyond/" . "GitHub/")
@@ -41,21 +46,37 @@
  ("/Applications/Emacs.app/" . "Contents/")
  ("/Applications/" . "Lisp-Applications/")
  ("/" . "Applications/")
- ("/Users/jcasse/" . "Dropbox/")
+ ("/Users/jcasse/" . "Personal/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/jcasse/"
- "/Users/jcasse/Dropbox/emacs/"
- "/Users/jcasse/Dropbox/emacs/.emacs.d/"
- "/home/juan/Dropbox/emacs/.emacs.d/"
- "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/"
- "/Users/jcasse/Dropbox/orgmode/"
- "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/"
- "/Users/jcasse/Personal/GitHub/emacs/"
- "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
+ "/Users/jcasse/Personal/GitHub/ai/doc/"
  "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/"
+ "/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/"
+ "/Users/jcasse/Dropbox/"
+ "/Users/jcasse/"
+ "/Users/jcasse/Personal/"
+ "/Users/jcasse/Personal/Tracy Jones/"
+ "/Users/jcasse/Dropbox/orgmode/"
+ "/Users/jcasse/Dropbox/tools-config/bash/"
+ "/Users/jcasse/Personal/GitHub/ai/"
+ "/Users/jcasse/Dropbox/data/"
+ "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/"
+ "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
+ "/Users/jcasse/Beyond/Projects/Oil Gas/RTE/"
+ "/ssh:jcasse@beast-1.beyond.ai:"
+ "/Users/jcasse/.emacs.d/"
+ "/Users/jcasse/Personal/GitHub/vim-tmux/"
+ "/Users/jcasse/Personal/GitHub/"
+ "/Users/jcasse/Personal/GitHub/cv/"
+ "/Users/jcasse/Dropbox/bash/"
+ "/Users/jcasse/Dropbox/emacs/.emacs.d/"
+ "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/"
+ "/Users/jcasse/Dropbox/vim/"
+ "/Users/jcasse/Dropbox/emacs/"
+ "/home/juan/Dropbox/emacs/.emacs.d/"
+ "/Users/jcasse/Personal/GitHub/emacs/"
  "/Users/jcasse/Beyond/"
  "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/"
  "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Minimal/"
@@ -65,11 +86,9 @@
  "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/"
  "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Weapons/"
  "/Users/jcasse/Personal/GitHub/emacs/.emacs.d/local-packages/"
- "/Users/jcasse/Dropbox/data/"
  "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js/"
  "/Users/jcasse/Downloads/"
  "/Users/jcasse/Personal/GitHub/emacs/.emacs.d/"
- "/Users/jcasse/Dropbox/"
  "/Users/jcasse/Personal/GitHub/codelab/Web/Tabs/frontend-client/stylesheet/"
  "/Users/jcasse/Personal/GitHub/codelab/Web/Tabs/frontend-client/javascript/"
  "/Users/jcasse/Personal/GitHub/codelab/Web/Tabs/frontend-client/"
@@ -82,43 +101,112 @@
  "/Users/jcasse/website/javascript/"
  "/Users/jcasse/website/"
  "/Users/jcasse/BL/GitHub/perfecta-web-ide/app/"
- "/Users/jcasse/BL/GitHub/perfecta-python-interface/blperfecta/"
- "/Users/jcasse/BL/GitHub/perfecta-python-interface/"
- "/Users/jcasse/BL/GitHub/perfecta-web-ide/app/templates/"
- "/Users/jcasse/BL/GitHub/perfecta-web-ide/"
- "/Users/jcasse/BL/GitHub/perfecta-web-ide/app/static/js/"
- "/Users/jcasse/.emacs.d/"
- "/Users/jcasse/BL/GitHub/perfecta-python-interface/blperfecta/examples/"
- "/Users/jcasse/BL/GitHub/perfecta-python-interface/docs/"
- "/Users/jcasse/BL/GitHub/perfecta-python-interface/examples/Cognitive-Sapce-Var/"
- "/Users/jcasse/BL/IP/Perfecta/"
- "/Users/jcasse/Personal/Figliozzi/jaccard/"
- "/Applications/Lisp-Applications/"
- "/Users/jcasse/Applications/"
- "/Users/jcasse/BL/GitHub/perfecta-web-ide/data/users/jcasse@beyond.ai/projects/prj6/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "statistics.pdf"
+ "endpoints.py"
  "init.el"
- ".emacs"
- "windows.org"
- "endpoints.sh"
- "mongodb.org"
- "perfecta.org"
- "minimal-kb.json"
- "minimal-kb.yaml"
- "tic-tac-toe-kb.json"
- "tic-tac-toe-kb.yaml"
+ "emacs_refcard.pdf"
+ "Volkswagen Credit -- One-time Payment Confirmation Tax.pdf"
+ "Screenshot_20180524-211625.png"
+ "emacs.org"
+ "distributions.pdf"
+ "statistics.tex"
+ "statistics.dvi"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jcasse/Dropbox/emacs/.emacs.d/" (23332 25361 147944 508000) "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "auto_saves.saves-3121-T430s~" "#!Users!jcasse!Personal!GitHub!website!README.md#" "init.el" "auto-save-list/" "#!Users!jcasse!Personal!GitHub!emacs!README.md#" "#!Users!jcasse!Beyond!GitHub!perfecta-python-interface!blperfecta!perfecta.py#" "recentf~" "tramp" "local-packages/" "places" "ido.last~" "abbrev_defs" "eshell/" "#!Users!jcasse!BL!GitHub!perfecta-web-ide!app!templates!base.html#" "ido.last" "../" "./")
+ ("/Users/jcasse/Personal/GitHub/ai/doc/" (23404 57843 466773 804000) "statistics.tex" "_region_.log" "_region_.aux" "statistics.pdf" "statistics.log" "statistics.aux" "_region_.pdf" "auto/" "_region_.tex" "../" "./")
 
- ("/Users/jcasse/Dropbox/emacs/" (23332 24255 963380 863000) ".git/" ".gitignore" "README.md" ".emacs.d/" "../" "./")
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/" (23404 57504 923169 156000) "auto_saves.saves-7201-Juans-MacBook-Pro.local~" "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "init.el" "tramp" "local-packages/" "places" "abbrev_defs" "eshell/" "ido.last" "../" "./")
 
- ("/Users/jcasse/" (23332 19389 249201 430000) ".viminfo.tmp" ".conda/" ".viminfo" ".bash_history" ".mongorc.js" ".gitconfig" ".cache/" "Downloads/" "anaconda3/" ".Xauthority" "AndroidStudioProjects/" ".bash_profile" "emacs_refcard.pdf" "Documents/" ".jupyter/" ".ipynb_checkpoints/" ".Trash/" "Dropbox/" ".gradle/" ".dbshell" "Applications/" ".vimrc" "Movies/" ".ssh/" ".anaconda/" ".bash_profile-anaconda3.bak" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".android/" ".emacs.d/" "mongodb/" "Books/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".gnome2/" "Pictures/" ".local/" ".bash_profile~" "test/" ".CFUserTextEncoding" ".gnupg/" ".DS_Store" ".vim/" ".virtualenvs/" "Beyond/" ".docker/" ".bash_profile.bak" ".condarc" "Music/" "Personal/" ".config/" "Research/" "../" "./")
+ ("/Users/jcasse/.emacs.d/" (23404 55433 885369 283000) "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "init.el" "tramp" "local-packages/" "places" "abbrev_defs" "eshell/" "ido.last" "../" "./")
+
+ ("/Users/jcasse/Downloads/" (23404 52062 362584 893000) "IDE-Service.exe.zip" "1520-exploiting-generative-models-in-discriminative-classifiers.pdf" "IMG_20180714_140904.jpg" "ismb99.ps" "pcim.pdf" "EpicInstaller-7.14.2-fortnite-37c65444ff4f4857a61ea0cfb80c1390.dmg" ".ipynb_checkpoints/" "kdd04-cross-assoc.pdf" "eStmt_2018-06-17.pdf" "Pattern Matcher Reference Manual v87.docx" "SandMan_Design_ShF0.docx" "graph.pdf" "lennox-dahl-vannucci-day-tsai-2010.pdf" "Project A-subset.tar.gz" "Statement_Jul 2018.pdf" "poster.pdf" "IMG_20180714_095049.jpg" "Rip Rap (2) Pelican Reef.png" "slidesexemplars.png" "IMG_20180714_141026.jpg" "eStmt_2018-07-17.pdf" "IMG_20180714_140926.jpg" "Lato2OFL/" "Resume 2018.pdf" "doc.pdf" ".DS_Store" "VirtualBox-5.2.14-123301-OSX.dmg" "PerfectaRules.xlsx" "c-pcim.pdf" "kdd04-cross-assoc.ppt" "Lato2OFL.zip" "slides.pdf" "kdd_cocluster.pdf" "casse.pdf" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/" (23404 48398 893984 506000) "perfecta-python-interface/" "data/" "2018.07.16.14.47.01.233/" ".git/" "2018.08.01.09.48.59.665/" "docker-run-wrapper.sh" ".ipynb_checkpoints/" "2018.07.23.14.58.23.677/" "2018.08.02.11.26.34.534/" ".gitignore" ".dockerignore" "README.md" "perfecta-web-ide.conf" ".gitmodules" "__pycache__/" "Dockerfile" "2018.08.02.14.38.59.284/" "perfecta-web-ide.wsgi" "test/" "requirements.txt" "LICENSE" "app/" "config.py" ".DS_Store" "run.py" "2018.07.24.13.35.43.330/" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/ai/" (23404 52968 165495 477000) ".ipynb_checkpoints/" "doc/" "README.md" ".DS_Store" "../" "./")
+
+ ("/Users/jcasse/Dropbox/" (23371 60457 994898 0) "data/" ".dropbox.cache/" ".dropbox" "Public/" "orgmode/" "Icon
+" ".DS_Store" "tools-config/" "This is your Dropbox.txt" "../" "./")
+
+ ("/Users/jcasse/" (23404 48442 779068 371000) ".viminfo.tmp" ".conda/" ".viminfo" ".bash_history" ".mongorc.js" ".gitconfig" ".cache/" ".python_history" "Downloads/" "anaconda3/" ".Xauthority" "AndroidStudioProjects/" ".bash_profile" "emacs_refcard.pdf" "Documents/" ".jupyter/" ".ipynb_checkpoints/" ".Trash/" "Dropbox/" ".gradle/" ".dbshell" "Applications/" ".vimrc" "Movies/" ".ssh/" ".anaconda/" ".vimbak/" ".bash_profile-anaconda3.bak" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".android/" ".emacs.d/" "mongodb/" "Books/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".gnome2/" "blackscreen.pptx" "Pictures/" ".local/" ".CFUserTextEncoding" "VirtualBox VMs/" ".gnupg/" ".DS_Store" ".vim/" ".virtualenvs/" "preview-latex.pdf" "usr/" "Beyond/" ".docker/" ".bash_profile.bak" ".condarc" "Music/" "Personal/" ".config/" "Research/" "../" "./")
+
+ ("/Users/jcasse/Dropbox/orgmode/" (23404 32859 954194 479000) "utils.org" "os.org" "windows.org" "cs.org" "cra.org" "ai.org" "mongodb.org" "ubuntu.org" "sandman.org" "perfecta.org" "quantum.org" "statistics.org" "emacs.org" "go.org" "altana.org" "web.org" "macbookpro.org" "T430s.org" "lisp.org" "gnu.org" "machinelearning.org" "todo.org" "javascript.org" "notes.org" ".DS_Store" "docker.org" "git.org" "datascience.org" "python.org" "../" "./")
+
+ ("/Users/jcasse/Personal/Tracy Jones/" (23303 36654 751828 777000) "Screenshot_20180524-211625.png" "Screenshot_20180524-211634.png" "Screenshot_20180524-211901.png" "Screenshot_20180524-211647.png" "Screenshot_20180524-211643.png" "Screenshot_20180524-211654.png" "Screenshot_20180524-211638.png" ".DS_Store" "../" "./")
+
+ ("/Users/jcasse/Dropbox/tools-config/bash/" (23404 26535 676580 660000) ".bash_profile" "doc/" ".gitignore" ".bashrc" "../" "./")
+
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/elpa/auctex-12.1.1/" (23403 41824 909292 763000) "autogen.sh" "tex-buf.elc" "ChangeLog-preview.1" "aclocal.m4" "tex-site.el" "Makefile.in" "plain-tex.el" "auctex.el" "latex.elc" "prv-emacs.elc" "auctex.spec" "lpath.el" "texmathp.el" "tex-bar.elc" "mkinstalldirs" "tex-buf.el" "auctex.el.in" "prv-emacs.el" "toolbar-x.el" "preview-latex.spec" "prv-install.elc" "plain-tex.elc" "context.el" "tex-info.elc" "latex-flymake.el" "tex-jp.elc" "bib-cite.elc" "ChangeLog-preview" "doc/" "tex-style.el" "auctex.elc" "ChangeLog.1" "dir" "tex-info.el" "tex-fold.elc" "font-latex.elc" ".gitignore" "font-latex.el" "COPYING" "circ.tex" "latex.el" "tex-fold.el" "context.elc" "README" ".elpaignore" "tex-wizard.el" "auctex-pkg.el" "toolbar-x.elc" "README.GIT" "RELEASE" "style/" "multi-prompt.elc" "bib-cite.el" "tex.el" "etc/" "preview.el" "tests/" "auctex-pkg.elc" "tex-mik.el" "prv-install.el" "tex-style.elc" "tex-site.el.in" "tex-ispell.elc" "latex-flymake.elc" "latex/" "context-en.elc" "tex-bar.el" "tex-font.elc" "multi-prompt.el" "lpath.elc" "images/" "ChangeLog" "tex-jp.el" "tex-site.elc" "context-nl.elc" "preview-latex.info" "tex-ispell.el" "configure.ac" "build-aux/" "install-sh" "auctex-autoloads.el" "tex.elc" "texmathp.elc" "GNUmakefile" "context-en.el" "tex-wizard.elc" "auctex.info" "context-nl.el" "tex-font.el" "tex-mik.elc" "preview.elc" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/templates/" (23403 14521 482106 228000) "project.html" ".ipynb_checkpoints/" "login.html" "register.html" "base.html" "about.html" "bootstrap/" "index.html" "help.html" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js/" (23403 14521 480533 91000) "goldenlayout.min.js" "jquery.fancytree-all-deps.min.js.map" "project.kb-editor.js" "jquery.fancytree.persist.js" "moment.min.js" "ace/" "jquery.contextMenu.min.js.map" "jquery-3.2.1.min.map" "jquery.hashchange.min.js" "base.js" "project.js" "jquery.fancytree.dnd.js" "vis.min.js" "moment-timezone-with-data.min.js" "js.cookie.js" "bootstrap.min.js" "popper-1.12.9.min.js" "jquery.fancytree-all-deps.min.js" "jquery.fancytree.filter.js" "jquery.contextMenu.min.js" "vis.map" "jquery-ui.min.js" "jquery-3.2.1.min.js" "bootstrap-datetimepicker.min.js" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Weapons/" (23402 10052 65465 682000) "weapons-features.xml" "weapons-kb.lisp" "weapons-kb.yaml" "weapons-features.yaml" "weapons-features.json" "weapons-kb.json" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/" (23402 10052 40508 901000) "xform.py" "examples.py" "examples/" "utils.py" "__pycache__/" "__init__.py" "constants.py" "utils_helper.py" "bin/" "requirements.txt" "perfecta_helper.py" ".DS_Store" "perfecta.py" "exception.py" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Car-Battery/" (23402 10052 55053 141000) "car-battery-kb.json" "car-battery-kb.yaml" "car-battery-features.json" "car-battery-kb.lisp" "car-battery-features.yaml" "car-battery-features.xml" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Tic-Tac-Toe/" (23402 10052 62831 391000) "tic-tac-toe-features.xml" "tic-tac-toe-kb.yaml" "tic-tac-toe-kb.json" "tic-tac-toe-features.json" "tic-tac-toe-kb.lisp" "tic-tac-toe-features.yaml" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Minimal/" (23402 10052 59519 392000) "minimal-kb.json" "minimal-kb.yaml" "minimal-features.xml" "minimal-kb.lisp" "minimal-features.json" "minimal-features.yaml" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/" (23402 10052 65953 684000) "Maximal/" "Car-Battery/" "example.py" "Miscellaneous/" "Minimal/" "Weapons/" ".DS_Store" "Tic-Tac-Toe/" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/" (23403 14521 476135 375000) "fancytree.py" "init.py" "classes.py" "templates/" "helper.py" "static/" "utils.py" "filesysteminterface.py" "forms.py" "__pycache__/" "keys.py" "ide_endpoints.py" "__init__.py" ".DS_Store" "process_registry.py" "web_service.py" "diskfilesystem.py" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/" (23402 10052 67098 96000) ".cache/" "data/" ".git/" "blperfecta/" ".ipynb_checkpoints/" "examples/" ".gitignore" "setup.py" "README.md" "docs/" "MANIFEST.in" "tests/" "requirements.txt" "LICENSE" ".DS_Store" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/" (23403 14667 912162 825000) "pcim/" "ai/" "resume/" "codelab/" ".DS_Store" "../" "./")
+
+ ("/Users/jcasse/Personal/" (23394 16969 962492 561000) "Sarah/" "fonts/" "Volkswagen Credit -- One-time Payment Confirmation.pdf" "Spectrum/" "Bank of America _ Online Banking _ Transfer Funds _ Between Your Accounts at Bank of America.pdf" "Tracy Jones/" "Renters Insurance Policy.pdf" "billinghistory (3).pdf" "Volkswagen Credit -- One-time Payment Confirmation Tax.pdf" "Make a One-Time Payment.pdf" "American Express _ Payment Center.pdf" "Lisa/" "Sonja Finnie/" "GitHub/" "Sabrina/" "Pay Bill_ Success _ My Account _ SoCalGas.pdf" "VW/" "American Express _ Payment Center Feb 2018.pdf" "billinghistory (2).pdf" "Evertec Inc, - Payment Receipt 2018-01-24.pdf" "Pay Rent-2018-02.pdf" "Pay Rent.pdf" "Cindy/" "Evertec Inc, - Payment Receipt.pdf" "billinghistory (1).pdf" "Figliozzi/" "Glendale Water & Power - Online Services.pdf" "Lance Bao Gmail - Recommendation.pdf" "Spectrum.net Billing.pdf" "Bank of America _ Online Banking _ Bill Pay _ Payment Confirmation.pdf" "Residential Turn Off Service Program Print.pdf" "Bank of America _ Online Banking _ Accounts _ Account Details _ Account Activity.pdf" ".DS_Store" "billinghistory.pdf" "Altana/" "American Express - Payments.pdf" "Pay Rent History.pdf" "Bank of America _ Online Banking _ Bill Pay _ e-Bills _ Pay e-Bill_ Scheduled.pdf" "../" "./")
+
+ ("/Users/jcasse/Dropbox/data/" (23395 34051 553517 144000) "data.asc" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/" (23386 22700 53626 837000) ".idea/" "randomboxes.py" "account.py" "project.py" "endpoints.py" "perfectaRunAbuse.py" "doc/" "processAbuse.py" "endpoints.sh" "badLogin.py" "test_suit.py" "dragdrop.py" "selenium_helpers.py" "processTest.py" "treeabuse.py" "perfectaUIabuse.py" "newFile.py" "../" "./")
+
+ ("/Users/jcasse/Beyond/Projects/Oil Gas/RTE/" (23378 1301 428172 995000) "OneDrive_2_7-19-2018.zip" "OneDrive_1_7-19-2018.zip" ".ipynb_checkpoints/" "rte_example_explorer.ipynb" "juan/" "michael/" "requirements.txt" ".DS_Store" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/tests/" (23385 65216 703162 644000) "kb_concepts.lisp" "input_features.xml" "input_features.yaml" "__pycache__/" "__init__.py" "kb_concepts.yaml" "test_utils.py" "../" "./")
+
+ ("/Users/jcasse/Beyond/Projects/Oil Gas/" (23377 8842 162664 623000) "Fuel Oil Data Y2016.pdf" "EO/" "CRA/" "RTE/" "README.md" "Use Case overview - Overview.docx" ".DS_Store" "SM/" "../" "./")
+
+ ("/Users/jcasse/Beyond/Projects/" (23190 60358 19322 846000) "Other/" "Healthcare/" "FinTech/" "Oil Gas/" ".DS_Store" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/" (23377 5658 302710 24000) "perfecta-web-ide/" "perfecta-python-interface/" "data/" "perfecta/" "fuzzy-inference-engine/" ".DS_Store" "../" "./")
+
+ ("/Users/jcasse/Dropbox/tools-config/" (23371 60431 213101 767000) ".git/" ".gitignore" "README.md" "bash/" "emacs/" ".gitmodules" "vim/" "../" "./")
+
+ ("/Users/jcasse/Dropbox/tools-config/emacs/" (23371 59945 897970 823000) ".gitignore" ".emacs.d/" "../" "./")
+
+ ("/Users/jcasse/Beyond/" (23374 4751 450271 784000) "Samsung (Andrew) (Brief) 04.pptx" "IP/" "WellMD.pptx" ".ipynb_checkpoints/" "HR/" "Data Science/" "GitHub/" "Samsung (Andrew) 01.pptx" "README.md" "Projects/" ".DS_Store" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/vim-tmux/" (23371 55621 934910 268000) ".git/" "doc/" ".vimrc" ".gitignore" "README.md" "plugin/" ".vim/" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/cv/" (23371 51458 145261 939000) ".git/" "data.yaml" ".gitignore" "README.md" "document.tex" "resume.pdf" "makefile" "preamble.tex" "../" "./")
+
+ ("/Users/jcasse/Dropbox/vim/" (23357 5313 795322 32000) ".git/" "doc/" ".vimrc" ".gitignore" "README.md" "plugin/" ".vim/" "../" "./")
+
+ ("/Users/jcasse/Dropbox/emacs/.emacs.d/" (23366 10974 4682 156000) "backups/" "auto_saves.saves-3863-T430s~" "elpa/" "recentf" "auto_saves.saves-812-Juans-MacBook-Pro.local~" "history" "network-security.data" "auto_saves/" "session.10fb4f28815d942160152926973298000300000024570063" "#!Users!jcasse!Dropbox!orgmode!javascript.org#" "#!Users!jcasse!Personal!GitHub!website!README.md#" "init.el" "url/" "auto-save-list/" "#!Users!jcasse!Personal!GitHub!emacs!README.md#" "recentf~" "tramp" "local-packages/" "places" "ido.last~" "abbrev_defs" "eshell/" "#!Users!jcasse!BL!GitHub!perfecta-web-ide!app!templates!base.html#" "ido.last" "#!Users!jcasse!Beyond!GitHub!perfecta-web-ide!app!process_registry.py#" "../" "./")
+
+ ("/Users/jcasse/Dropbox/bash/" (23357 4990 156220 977000) ".bash_profile" ".git/" "doc/" ".gitignore" "README.md" ".bashrc" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/data/" (23333 38814 201704 308000) "db/" "users/" ".DS_Store" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/codelab/" (23296 29916 19944 324000) ".git/" ".gitignore" "README.md" "Web/" "Python/" "LICENSE" "Lisp/" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/codelab/Web/" (23300 23978 552654 533000) "Resize/" "flexbox/" "Tabs/" "../" "./")
+
+ ("/Users/jcasse/Beyond/IP/Perfecta/" (23333 38125 512942 758000) "Meetings/" "Examples/" "Web IDE/" "Presentations/" "README.md" "Docs/" "Source/" "bin/" ".DS_Store" "../" "./")
+
+ ("/Users/jcasse/Dropbox/emacs/" (23332 28923 458467 823000) ".git/" ".gitignore" "README.md" ".emacs.d/" "../" "./")
 
  ("/home/juan/Dropbox/emacs/.emacs.d/" (23332 24328 952757 86000) "#!Users!jcasse!Personal!GitHub!website!README.md#" "tramp" "#!Users!jcasse!BL!GitHub!perfecta-web-ide!app!templates!base.html#" "local-packages/" "#!Users!jcasse!Personal!GitHub!emacs!README.md#" "backups/" "auto_saves/" "ido.last" "auto_saves.saves-66623-Juans-MBP.charter.com~" "history" "ido.last~" "elpa/" "auto_saves.saves-2366-T430s~" "network-security.data" "recentf~" "eshell/" "recentf" "places" "auto-save-list/" "#!Users!jcasse!Beyond!GitHub!perfecta-python-interface!blperfecta!perfecta.py#" "init.el" "../" "abbrev_defs" "./")
 
@@ -128,54 +216,15 @@
 
  ("/home/juan/" (23332 22177 617130 48000) ".cache/" ".profile" ".ICEauthority" "Videos/" ".dropbox/" ".emacs.d/" ".bashrc" ".dropbox-dist/" ".emacs.d.bak/" "Public/" ".local/" ".ssh/" ".mozilla/" ".viminfo" "Templates/" ".sudo_as_admin_successful" ".vimrc" ".config/" "Music/" ".bash_history" "Pictures/" "Dropbox/" "Documents/" ".gnupg/" "dash-to-panel/" "Downloads/" "../" "Desktop/" ".bash_logout" ".themes/" "./" "examples.desktop")
 
- ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/" (23331 61149 931913 68000) "xform.py" "examples.py" "examples/" "utils.py" "__pycache__/" "__init__.py" "constants.py" "utils_helper.py" "bin/" "requirements.txt" "perfecta_helper.py" ".DS_Store" "perfecta.py" "exception.py" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/" (23331 56960 10388 408000) "2018.06.10.13.34.14.979/" "2018.06.13.07.23.13.527/" "2018.06.11.19.26.02.280/" "2018.06.08.19.34.04.407/" "2018.06.08.22.38.15.249/" "2018.06.06.13.33.00.174/" "2018.06.10.09.13.06.243/" "2018.06.14.09.42.13.591/" "2018.06.11.15.22.31.926/" "2018.06.01.13.22.40.258/" "2018.06.12.16.03.57.922/" "2018.06.01.22.16.02.633/" "2018.06.11.18.52.33.145/" "2018.06.01.19.39.08.760/" "2018.06.10.09.38.03.472/" "2018.06.14.18.34.02.932/" "2018.06.14.18.52.57.929/" "2018.06.11.15.26.58.567/" "2018.06.04.22.46.23.732/" "2018.06.09.15.51.09.368/" "2018.06.14.17.48.21.454/" "2018.05.30.11.07.59.192/" "2018.06.04.22.17.39.955/" "2018.06.09.12.30.00.532/" "2018.06.12.12.46.36.623/" "2018.06.12.07.49.28.767/" "2018.06.12.21.48.24.361/" "2018.06.10.09.41.39.170/" "2018.06.08.23.05.59.833/" "2018.06.08.12.58.14.319/" "2018.06.09.13.29.45.817/" "2018.06.14.09.57.22.647/" "2018.06.14.09.16.24.864/" "2018.06.12.13.22.45.438/" "2018.06.11.10.11.53.849/" "2018.06.13.14.49.24.220/" "2018.06.01.12.37.19.877/" "2018.06.05.13.30.23.296/" "2018.06.14.17.46.14.849/" "2018.06.08.19.37.08.160/" "2018.06.09.12.59.22.932/" "2018.06.09.13.18.39.580/" "2018.06.08.19.22.03.752/" "2018.06.08.20.08.40.525/" "2018.05.31.13.57.05.194/" "2018.06.01.09.40.53.619/" "2018.06.10.13.05.29.849/" "2018.06.13.14.10.23.900/" "2018.06.04.22.07.49.234/" "2018.06.11.21.40.37.595/" "2018.06.12.09.03.33.243/" "2018.06.12.09.34.00.693/" "2018.06.13.07.54.07.627/" "2018.06.11.15.34.06.293/" "2018.06.08.23.17.55.612/" "2018.06.10.09.34.53.937/" "2018.06.04.15.08.16.618/" "2018.06.12.11.06.23.475/" "2018.06.11.15.09.55.449/" "2018.06.12.22.10.51.956/" "2018.06.12.13.07.09.419/" "2018.06.11.15.35.16.523/" "2018.06.01.17.17.52.749/" "2018.06.09.15.03.48.891/" "2018.06.09.14.04.05.626/" "2018.06.01.19.59.29.944/" "2018.06.11.18.49.09.640/" "2018.06.10.13.51.32.405/" "2018.06.09.12.23.01.933/" "2018.06.11.20.44.58.705/" "2018.06.11.20.58.00.263/" "2018.06.11.15.06.46.848/" "2018.06.08.21.24.51.579/" "2018.06.10.15.39.54.409/" "2018.06.12.16.01.38.918/" "2018.06.01.19.35.13.340/" "2018.06.01.22.08.26.212/" "2018.06.10.09.37.10.642/" "data/" "2018.06.09.12.53.53.191/" "2018.06.01.22.10.55.623/" "2018.06.12.07.53.32.688/" "2018.06.14.18.24.23.465/" "2018.06.11.15.11.35.339/" "2018.05.30.09.16.08.144/" "2018.06.08.13.05.44.205/" "2018.06.01.13.08.04.146/" "2018.06.10.12.05.37.753/" "2018.06.09.13.37.46.166/" "2018.06.04.18.21.32.175/" "2018.06.15.08.31.17.852/" "2018.06.10.15.40.52.643/" "2018.06.11.14.58.18.465/" "2018.06.11.21.27.12.623/" "2018.06.08.11.55.20.866/" "2018.06.11.18.48.38.917/" "2018.06.12.08.26.55.472/" "2018.06.10.09.26.12.684/" "2018.06.05.14.19.23.962/" "2018.06.01.09.08.41.351/" "2018.06.10.09.26.42.561/" "2018.06.11.18.25.49.824/" "2018.06.09.13.20.02.635/" "2018.06.09.15.55.39.288/" "2018.06.14.17.48.02.877/" ".git/" "2018.06.10.09.43.43.257/" "2018.06.08.13.02.32.855/" "2018.06.08.17.04.13.549/" "2018.06.10.14.06.17.256/" "2018.06.11.21.34.44.848/" "2018.06.01.19.59.36.330/" "2018.06.14.09.16.12.626/" "2018.06.01.13.27.34.255/" "2018.06.14.18.44.39.308/" "2018.06.10.08.12.54.516/" "2018.06.01.09.48.19.448/" "2018.06.01.13.34.17.130/" "2018.06.08.19.44.10.311/" "2018.06.10.13.41.08.522/" "2018.06.05.11.12.20.886/" "2018.06.05.15.19.05.489/" "2018.06.04.16.39.45.426/" "2018.06.08.13.53.45.772/" "2018.06.10.15.34.47.291/" "docker-run-wrapper.sh" "2018.06.09.15.45.06.338/" "2018.06.01.13.35.57.959/" "2018.06.01.09.16.20.806/" "2018.06.12.08.34.43.614/" "2018.06.15.08.40.22.396/" "2018.06.14.08.09.14.891/" "2018.06.05.14.57.25.896/" "2018.06.08.11.48.56.623/" "2018.06.01.21.54.08.356/" "2018.06.08.22.36.40.211/" "2018.06.08.12.02.31.358/" "2018.06.10.14.14.46.123/" "2018.06.11.21.00.24.839/" "2018.06.13.14.52.28.907/" "2018.06.12.09.50.40.642/" "2018.05.31.10.53.23.172/" "2018.06.14.18.09.46.201/" "2018.06.04.22.18.14.641/" "2018.06.11.08.32.38.590/" "2018.06.08.12.49.10.251/" "2018.06.01.19.02.52.438/" "2018.05.30.11.10.06.756/" "2018.06.09.14.22.52.214/" "2018.06.13.07.27.38.687/" "2018.06.01.19.36.55.634/" "2018.06.12.08.37.56.362/" "2018.05.30.09.45.16.525/" "2018.06.09.13.32.49.556/" "2018.06.14.19.06.22.462/" "2018.06.14.08.15.00.328/" "2018.06.05.11.40.24.638/" "2018.06.09.14.12.43.252/" ".ipynb_checkpoints/" "2018.06.10.09.35.04.220/" "2018.06.04.22.28.11.653/" "2018.06.10.15.32.24.264/" "2018.06.04.14.04.04.587/" "2018.06.08.12.54.09.764/" "2018.06.08.21.59.41.522/" "2018.06.01.22.13.57.535/" "2018.06.14.10.57.36.599/" "2018.06.09.15.54.54.352/" "2018.06.08.22.50.18.871/" "docker-compose.yml" "2018.06.10.13.38.26.429/" "2018.06.10.15.28.57.612/" "2018.06.14.18.56.21.932/" "2018.06.14.10.59.51.222/" "2018.06.10.14.14.06.996/" "2018.06.11.18.50.41.714/" "2018.06.10.12.17.37.949/" "2018.06.01.22.27.38.148/" "2018.06.09.13.00.37.565/" "2018.06.11.21.31.40.135/" "2018.06.14.10.00.24.374/" "2018.06.10.09.48.14.977/" "2018.06.10.09.33.11.534/" "2018.06.08.22.56.06.634/" "2018.06.08.17.22.41.365/" "2018.06.10.09.25.55.460/" "2018.06.01.13.14.31.322/" "2018.06.08.21.26.46.597/" "2018.05.30.11.11.22.334/" "2018.06.09.12.53.18.284/" "2018.06.08.16.41.10.929/" "2018.06.08.13.03.56.656/" "2018.06.12.10.00.02.229/" "2018.06.08.22.57.31.365/" "2018.06.01.17.20.44.849/" "2018.06.09.13.02.13.869/" "2018.05.31.08.39.04.667/" "2018.06.11.08.26.57.908/" "2018.06.12.13.01.15.722/" "2018.06.01.12.43.08.412/" "2018.06.01.21.46.51.756/" "2018.06.08.21.49.26.837/" "2018.06.10.12.16.30.639/" "2018.06.08.16.11.20.585/" "2018.06.05.18.51.15.452/" "2018.06.11.18.56.13.332/" "2018.06.04.18.17.30.339/" "2018.06.08.12.00.53.555/" "2018.06.10.09.44.25.756/" "2018.06.12.07.59.07.253/" "2018.06.14.10.59.33.311/" "2018.06.05.14.18.12.754/" "2018.06.13.07.49.02.115/" "mongod.conf" "2018.06.13.21.28.45.104/" "2018.06.10.09.23.54.198/" "2018.05.30.11.27.44.919/" "2018.06.06.14.43.12.916/" "2018.06.10.09.31.37.690/" "2018.06.09.13.03.03.945/" "2018.06.14.17.51.44.428/" "2018.06.09.12.30.35.361/" "2018.06.12.12.46.28.288/" "2018.06.08.23.22.09.755/" "2018.06.14.17.03.18.244/" "2018.05.30.14.30.06.379/" "2018.06.08.17.33.08.141/" "2018.06.10.09.47.12.178/" "2018.06.10.08.04.37.471/" "2018.06.08.22.17.45.537/" "2018.06.11.21.23.39.278/" "2018.06.13.07.33.30.207/" "2018.06.01.12.20.07.853/" "2018.06.09.13.54.44.912/" "2018.06.09.14.10.52.683/" "2018.06.11.19.20.14.680/" "2018.06.11.19.29.57.656/" "2018.06.08.13.31.08.349/" "2018.06.01.19.34.18.382/" "2018.05.30.10.24.07.905/" "2018.06.12.11.12.19.509/" "2018.06.09.15.08.05.617/" "2018.06.01.14.29.21.981/" "2018.06.12.08.14.31.290/" "2018.06.01.22.34.54.253/" "2018.06.13.12.39.34.112/" "2018.06.11.08.01.09.380/" "2018.06.01.21.49.53.628/" "2018.06.11.14.55.26.101/" "2018.06.05.13.52.31.104/" "2018.06.04.21.30.34.788/" "2018.06.01.19.56.56.884/" "2018.06.12.08.41.46.685/" "2018.05.30.09.31.25.241/" ".gitignore" "2018.06.13.07.15.55.241/" "2018.06.10.12.57.31.473/" "2018.06.12.08.30.45.679/" "2018.06.13.07.50.33.719/" "2018.06.04.22.45.41.999/" "2018.06.05.18.51.27.136/" "2018.06.10.09.29.40.170/" "2018.06.05.13.31.01.185/" "2018.05.30.14.49.47.277/" "2018.06.01.09.31.51.232/" "2018.06.11.15.34.33.717/" "2018.06.12.12.52.01.251/" "2018.05.30.00.59.17.446/" "2018.06.11.15.30.58.502/" "2018.06.09.15.36.43.831/" ".dockerignore" "2018.06.11.12.06.18.919/" "2018.06.08.12.58.52.873/" "2018.06.14.10.57.37.239/" "2018.06.10.14.13.39.319/" "2018.06.09.15.50.30.804/" "2018.06.13.18.21.33.852/" "2018.06.11.18.27.53.228/" "2018.06.05.13.47.47.359/" "2018.06.08.17.34.17.253/" "2018.06.12.17.51.55.506/" "2018.06.01.17.28.02.292/" "2018.05.31.09.20.19.422/" "2018.06.09.12.31.57.923/" "2018.06.10.12.01.38.239/" "2018.06.13.14.12.31.740/" "2018.06.10.09.06.19.693/" "2018.06.14.18.10.36.476/" "2018.06.08.13.59.11.946/" "2018.06.11.18.15.35.881/" "2018.06.09.11.31.02.621/" "2018.06.09.13.19.11.191/" "2018.06.01.17.30.15.337/" "2018.06.10.09.44.06.715/" "2018.06.08.14.59.55.212/" "2018.06.10.09.46.46.403/" "2018.06.12.17.56.51.379/" "2018.06.01.17.34.59.765/" "2018.06.09.14.06.31.646/" "2018.06.12.08.39.44.632/" "2018.06.11.22.02.25.924/" "2018.06.14.09.16.26.847/" "2018.06.11.21.38.54.608/" "2018.06.09.16.25.04.673/" "2018.06.10.12.52.47.700/" "2018.06.09.16.26.04.333/" "2018.06.10.13.46.13.757/" "README.md" "2018.06.08.21.18.43.585/" "2018.06.09.13.23.14.429/" "2018.05.30.17.32.23.832/" "2018.06.13.17.22.43.369/" "2018.06.01.13.10.01.432/" "2018.06.01.19.57.03.624/" "2018.06.10.14.09.54.229/" "2018.06.08.17.36.50.668/" "2018.06.10.09.34.34.328/" "2018.06.10.09.47.26.582/" "2018.06.14.17.46.26.853/" "2018.06.09.12.36.26.229/" "2018.06.10.13.30.22.661/" "2018.06.09.15.54.15.210/" "2018.05.30.09.47.58.939/" "2018.06.09.13.39.18.457/" "2018.06.10.09.45.07.308/" "2018.06.13.07.36.26.579/" "2018.06.01.22.30.04.863/" "2018.06.01.22.02.32.120/" "2018.06.10.08.24.48.952/" "2018.06.14.19.08.22.696/" "2018.06.14.18.25.26.603/" "2018.06.08.12.56.50.387/" "2018.06.05.15.48.00.692/" "2018.06.04.18.22.57.532/" "2018.06.14.16.01.19.531/" "2018.06.10.15.46.46.457/" "2018.06.01.21.52.30.497/" "2018.06.13.16.53.56.280/" "2018.06.09.12.42.29.886/" "2018.06.06.12.48.12.492/" "2018.06.10.14.16.27.817/" "2018.06.10.08.31.38.487/" "2018.06.15.08.40.23.813/" "__pycache__/" "2018.06.01.19.39.23.592/" "2018.06.08.12.56.21.992/" "2018.06.12.10.57.08.505/" "2018.06.13.07.39.05.332/" "2018.06.09.14.09.48.408/" "2018.06.14.10.02.57.778/" "2018.06.09.13.33.33.197/" "2018.06.09.13.56.23.917/" "2018.06.11.18.09.21.773/" "2018.06.08.19.31.55.933/" "2018.06.12.10.11.12.118/" "2018.06.11.21.00.03.356/" "2018.06.10.09.12.13.611/" "2018.06.08.15.57.04.538/" "2018.06.10.12.46.31.540/" "2018.06.04.22.45.02.526/" "2018.06.12.11.10.41.797/" "2018.06.14.09.38.45.490/" "2018.06.11.15.25.03.455/" "2018.06.08.19.57.20.819/" "2018.06.10.12.15.49.337/" "2018.06.09.14.01.17.181/" "2018.06.05.13.44.44.663/" "2018.06.09.12.31.42.591/" "2018.06.11.21.43.04.403/" "2018.06.11.18.34.12.655/" "2018.06.10.15.33.17.998/" "2018.06.11.22.14.50.615/" "2018.06.11.15.40.13.873/" "2018.06.11.15.26.06.230/" "2018.06.09.14.28.27.754/" "2018.06.11.15.16.27.658/" "2018.06.08.11.52.58.553/" "2018.06.08.16.53.54.565/" "2018.06.01.22.21.18.622/" "2018.06.12.08.42.58.289/" "2018.06.01.19.02.40.801/" "2018.06.11.21.58.00.160/" "2018.05.30.17.53.20.769/" "2018.06.09.09.49.11.835/" "2018.06.08.17.15.50.378/" "2018.06.08.12.50.47.825/" "2018.06.04.22.27.41.117/" "2018.06.01.12.39.29.974/" "2018.06.12.08.17.14.497/" "2018.06.12.08.00.36.747/" "2018.06.09.13.42.41.114/" "2018.06.08.22.21.05.653/" "2018.06.09.15.05.10.266/" "2018.06.04.17.44.09.731/" "2018.06.12.08.55.33.116/" "2018.06.08.23.19.27.634/" "2018.06.13.13.45.24.388/" "2018.06.08.14.56.00.634/" "2018.06.11.18.08.05.285/" "2018.06.08.11.58.20.834/" "2018.06.05.13.28.27.352/" "2018.06.14.08.10.41.962/" "2018.06.01.17.14.01.891/" "2018.06.12.08.45.47.954/" "2018.06.01.12.47.11.850/" "2018.06.05.16.44.51.532/" "2018.06.09.21.52.29.755/" "2018.06.04.22.29.09.220/" "2018.06.01.22.09.22.840/" "2018.06.13.08.01.18.493/" "2018.05.30.17.57.32.720/" "2018.06.09.14.31.55.960/" "2018.06.10.13.31.54.671/" "2018.06.13.13.31.52.261/" "2018.06.09.12.28.17.386/" "2018.06.11.20.42.42.705/" "2018.06.09.13.42.19.812/" "2018.06.11.15.33.45.421/" "2018.06.01.09.25.26.704/" "2018.06.05.18.28.30.244/" "2018.06.09.12.44.44.987/" "2018.06.11.21.56.18.710/" "2018.06.10.13.42.31.773/" "2018.06.01.09.34.04.170/" "2018.05.30.11.06.49.708/" "2018.06.14.17.33.32.793/" "2018.06.10.15.37.36.598/" "2018.06.09.13.25.10.594/" "2018.06.12.09.35.45.494/" "2018.06.01.19.32.53.565/" "2018.06.09.16.14.16.161/" "2018.06.10.13.47.49.625/" "2018.06.01.13.59.42.248/" "2018.06.09.15.01.54.596/" "2018.06.09.13.56.52.488/" "2018.06.09.12.26.43.257/" "2018.06.10.13.28.26.192/" "2018.06.14.09.57.03.206/" "2018.06.04.13.41.37.634/" "2018.06.12.12.54.44.589/" "2018.06.11.20.47.50.499/" "2018.06.12.08.38.29.279/" "2018.06.09.12.47.29.774/" "2018.06.10.09.35.40.737/" "2018.06.13.06.43.56.702/" "2018.06.08.16.55.27.500/" "2018.06.08.11.46.01.904/" "2018.06.01.13.42.22.909/" "2018.06.01.13.58.19.257/" "2018.06.09.15.13.25.372/" "2018.06.14.10.04.46.618/" "2018.06.05.15.45.01.372/" "2018.06.11.20.34.26.687/" "2018.06.09.14.05.25.290/" "2018.06.10.09.21.10.981/" "Dockerfile" "2018.06.04.22.45.53.744/" "2018.06.10.09.41.19.369/" "2018.06.14.10.05.09.662/" "2018.06.10.12.58.57.489/" "2018.06.01.22.42.32.902/" "2018.06.05.13.23.44.191/" "2018.06.10.09.44.50.288/" "2018.06.08.12.52.51.416/" "2018.06.10.09.37.49.548/" "2018.06.01.17.19.26.472/" "2018.06.11.20.46.39.693/" "2018.06.08.14.57.48.536/" "2018.06.12.08.37.16.753/" "2018.05.30.09.10.47.402/" "2018.06.09.12.38.54.491/" "2018.06.04.16.26.25.311/" "2018.06.14.18.24.14.707/" "2018.06.01.22.38.32.496/" "2018.05.31.14.17.50.368/" "2018.06.13.12.41.34.131/" "2018.05.30.09.48.49.637/" "2018.06.01.17.20.09.234/" "2018.06.04.22.18.55.890/" "2018.06.11.21.01.27.682/" "2018.06.08.10.44.03.163/" "2018.06.04.18.38.23.725/" "2018.06.14.09.16.21.482/" "2018.06.12.15.55.25.883/" "2018.06.13.18.18.42.282/" "2018.05.31.16.56.30.949/" "2018.06.08.19.32.46.232/" "2018.06.09.14.38.28.197/" "2018.06.09.15.46.04.259/" "2018.06.12.07.55.34.814/" "2018.06.01.21.55.12.194/" "2018.06.14.17.01.03.527/" "2018.06.11.18.37.10.619/" "2018.06.11.08.09.21.105/" "2018.06.10.09.09.50.707/" "2018.06.10.09.32.47.305/" "2018.05.30.09.25.05.554/" "2018.06.08.11.57.21.367/" "2018.06.09.21.58.22.973/" "2018.06.11.20.03.04.730/" "2018.06.08.17.35.40.574/" "test/" "2018.06.09.13.01.47.320/" "2018.06.14.19.11.20.292/" "2018.06.08.16.01.32.382/" "2018.06.10.15.29.59.693/" "2018.06.08.14.54.16.900/" "2018.06.10.13.54.03.765/" "requirements.txt" "2018.06.08.13.56.25.213/" "2018.06.12.10.04.24.482/" "2018.06.04.14.00.23.364/" "LICENSE" "2018.06.08.22.24.32.871/" "2018.06.09.14.13.44.959/" "2018.06.10.09.43.15.616/" "2018.05.30.09.28.31.839/" "2018.06.08.22.06.25.919/" "2018.06.10.13.26.44.753/" "app/" "2018.06.09.14.26.08.232/" "2018.06.11.15.09.24.935/" "2018.06.06.12.46.26.723/" "2018.06.11.20.28.12.640/" "2018.06.11.20.50.01.181/" "2018.06.08.13.02.54.409/" "2018.06.08.11.40.38.995/" "2018.06.08.21.21.30.960/" "2018.06.11.21.09.16.274/" "2018.06.06.15.05.23.452/" "2018.06.08.22.16.06.158/" "2018.06.09.13.31.11.880/" "config.py" "2018.06.14.10.05.46.262/" "2018.06.09.12.46.43.961/" "2018.06.09.14.25.08.717/" ".DS_Store" "2018.06.10.09.46.18.611/" "2018.06.10.09.33.29.443/" "2018.06.05.19.16.04.883/" "2018.05.30.09.15.21.425/" "2018.06.01.21.47.21.179/" "2018.06.11.15.31.51.124/" "2018.06.14.18.32.42.356/" "2018.06.11.15.36.48.897/" "2018.06.04.13.55.13.359/" "2018.06.08.21.26.30.453/" "2018.06.04.13.59.44.534/" "2018.06.13.14.49.14.167/" "2018.06.11.21.45.21.477/" "2018.06.01.21.01.39.555/" "2018.06.10.09.46.06.342/" "2018.05.30.09.49.53.841/" "2018.06.10.09.44.43.376/" "2018.06.09.13.21.47.199/" "2018.06.09.13.30.17.419/" "2018.06.04.21.36.28.321/" "2018.06.10.12.19.22.184/" "2018.06.10.11.39.08.496/" "2018.06.09.13.39.49.700/" "2018.06.11.15.02.45.476/" "2018.06.05.14.11.08.214/" "2018.06.11.15.32.47.120/" "2018.06.04.22.27.19.315/" "2018.06.08.21.20.12.710/" "2018.06.14.08.14.26.233/" "2018.06.11.18.23.10.695/" "2018.06.10.11.53.24.394/" "2018.05.31.09.37.47.397/" "2018.06.13.17.26.29.920/" "2018.06.13.14.12.53.678/" "2018.06.10.12.47.32.355/" "2018.06.08.11.50.50.352/" "2018.06.10.09.33.20.858/" "2018.06.05.08.02.20.653/" "2018.06.10.09.20.41.509/" "2018.05.31.09.31.37.842/" "2018.06.09.10.17.13.986/" "2018.06.09.12.49.05.419/" "2018.06.13.13.46.26.560/" "2018.06.14.19.08.03.322/" "2018.06.04.22.28.53.537/" "2018.06.10.08.24.23.986/" "run.py" "2018.06.09.16.22.01.256/" "2018.06.12.07.47.29.604/" "2018.06.05.13.47.07.101/" "2018.06.10.09.35.16.654/" "2018.06.08.13.01.34.393/" "2018.06.01.19.37.22.658/" "2018.06.10.13.25.42.613/" "2018.06.14.08.11.40.654/" "2018.06.11.07.53.19.826/" "2018.06.11.15.08.28.297/" "2018.06.14.19.06.10.348/" "2018.06.01.17.33.20.916/" "2018.06.10.09.24.17.382/" "2018.06.05.13.42.21.733/" "2018.06.11.15.20.32.875/" "2018.06.08.13.00.22.906/" "2018.06.06.14.48.16.487/" "2018.06.10.15.59.16.538/" "2018.06.09.13.59.22.887/" "2018.06.01.13.47.54.185/" "2018.06.08.11.44.48.419/" "2018.06.10.09.45.17.661/" "2018.06.10.12.54.10.634/" "2018.06.09.13.41.18.407/" "2018.06.10.12.50.52.682/" "2018.06.13.14.50.29.171/" "2018.06.09.12.37.05.559/" "2018.06.10.09.46.33.763/" "2018.06.10.09.43.35.208/" "2018.06.08.23.13.02.427/" "2018.06.08.16.48.58.975/" "2018.06.01.17.39.53.698/" "2018.06.05.18.51.08.886/" "2018.06.14.11.08.28.932/" "2018.06.09.13.59.48.625/" "2018.06.08.21.39.10.621/" "2018.05.30.09.39.03.683/" "2018.06.11.21.28.22.484/" "2018.06.11.19.02.58.815/" "2018.06.12.13.01.24.289/" "2018.06.14.17.51.54.642/" "2018.06.10.09.21.31.783/" "2018.06.01.17.13.18.671/" "2018.05.30.09.06.17.895/" "2018.06.15.08.42.56.848/" "2018.06.09.15.05.46.565/" "2018.06.10.11.40.29.989/" "2018.06.12.08.28.59.615/" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/" (23331 56802 617456 69000) "fancytree.py" "init.py" "classes.py" "templates/" "helper.py" "static/" "utils.py" "filesysteminterface.py" "forms.py" "web_service.py.~1~" "__pycache__/" "keys.py" "ide_endpoints.py" "__init__.py" "process_registry.py" "web_service.py" "diskfilesystem.py" "../" "./")
-
  ("/Users/jcasse/Beyond/IP/Perfecta/Examples/" (23330 45664 377101 729000) "options.txt" "ASTRI_-_Perfecta/" "cmd-exit.txt" "cmd-variable-definition.txt" "cmd-load-kb-files.txt" "cmd-heartbeat.txt" "Corrosion/" "weapons-features.xml" "examples/" "cmd-initialize-perfecta.txt" "cmd-clear-features.txt" "README.md" "Smart Investment/" "minimal-features.xml" "Interface-Directory/" "options.json" "kb.lisp" ".DS_Store" "cmd-get-cognitive-space-options.txt" "cmd-set-cognitive-space-options.txt" "../" "./")
-
- ("/Users/jcasse/Dropbox/" (23331 54287 393548 245000) "source-code-pro.sh" "data/" ".dropbox.cache/" ".dropbox" "Public/" "emacs/" "orgmode/" "Icon
-" ".DS_Store" "vim/" "This is your Dropbox.txt" "../" "./")
-
- ("/Users/jcasse/Downloads/" (23331 7448 383920 809000) ".DS_Store" "../" "./")
-
- ("/Users/jcasse/Dropbox/data/" (23331 14098 940167 598000) "data.asc" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/" (23330 62739 128503 930000) "endpoints.sh" "../" "./")
-
- ("/Users/jcasse/Dropbox/orgmode/" (23331 54287 385327 138000) "cs.org" "cra.org" "ai.org" "mongodb.org" "perfecta.org" "emacs.org" "altana.org" "web.org" "macbookpro.org" "T430s.org" "lisp.org" "bash.org" "todo.org" "notes.org" ".DS_Store" "git.org" "python.org" "../" "./")
 
  ("/Users/jcasse/Personal/GitHub/emacs/" (23330 65167 511017 14000) ".git/" ".emacs" ".gitignore" "README.md" ".emacs.d/" "../" "./")
 
- ("/Users/jcasse/.emacs.d/" (23330 41251 398286 122000) "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "#!Users!jcasse!Personal!GitHub!website!README.md#" "auto-save-list/" "#!Users!jcasse!Personal!GitHub!emacs!README.md#" "#!Users!jcasse!Beyond!GitHub!perfecta-python-interface!blperfecta!perfecta.py#" "recentf~" "auto_saves.saves-19616-Juans-MacBook-Pro.local~" "tramp" "local-packages/" "places" "ido.last~" "abbrev_defs" "eshell/" "#!Users!jcasse!BL!GitHub!perfecta-web-ide!app!templates!base.html#" "ido.last" "../" "./")
-
  ("/Users/jcasse/Personal/GitHub/emacs/.emacs.d/" (23330 41251 398286 122000) "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "#!Users!jcasse!Personal!GitHub!website!README.md#" "auto-save-list/" "#!Users!jcasse!Personal!GitHub!emacs!README.md#" "#!Users!jcasse!Beyond!GitHub!perfecta-python-interface!blperfecta!perfecta.py#" "recentf~" "auto_saves.saves-19616-Juans-MacBook-Pro.local~" "tramp" "local-packages/" "places" "ido.last~" "abbrev_defs" "eshell/" "#!Users!jcasse!BL!GitHub!perfecta-web-ide!app!templates!base.html#" "ido.last" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/templates/" (23329 34864 616961 956000) "project.html" ".ipynb_checkpoints/" "login.html" "register.html" "base.html" "about.html" "bootstrap/" "index.html" "help.html" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js/" (23329 34864 613816 492000) "goldenlayout.min.js" "jquery.fancytree-all-deps.min.js.map" "jquery.fancytree.persist.js" "moment.min.js" "ace/" "jquery.contextMenu.min.js.map" "jquery-3.2.1.min.map" "jquery.hashchange.min.js" "base.js" "project.js" "jquery.fancytree.dnd.js" "vis.min.js" "moment-timezone-with-data.min.js" "js.cookie.js" "bootstrap.min.js" "popper-1.12.9.min.js" "jquery.fancytree-all-deps.min.js" "jquery.fancytree.filter.js" "jquery.contextMenu.min.js" "vis.map" "jquery-ui.min.js" "jquery-3.2.1.min.js" "bootstrap-datetimepicker.min.js" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Weapons/" (23328 19872 868691 765000) "weapons-features.xml" "weapons-kb.lisp" "weapons-kb.yaml" "weapons-features.yaml" "weapons-features.json" "weapons-kb.json" "../" "./")
-
- ("/Users/jcasse/Beyond/IP/Perfecta/" (23328 42070 203190 931000) "IDE Connection Commands 01.docx" "Meetings/" "Perfecta Usage.pptx" "Perfecta Reference Manual 73.docx" "Examples/" "Web IDE/" "KB.json" "Define-Concept-Blueprint.lisp" "Paper 02.pages" "perfectaNotes/" "README.md" "KB.xml" "__pycache__/" "IDE Connection Commands 04.docx" "cevat2.py" "Source/" "options.json" "cevat.py" "bin/" ".DS_Store" "Perfecta 27.pptx" "Perfecta Reference Manual 88.docx" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Car-Battery/" (23328 22841 656552 363000) "car-battery-kb.json" "car-battery-kb.yaml" "car-battery-features.json" "car-battery-kb.lisp" "car-battery-features.yaml" "car-battery-features.xml" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Tic-Tac-Toe/" (23328 22538 811254 325000) "tic-tac-toe-features.xml" "tic-tac-toe-kb.yaml" "tic-tac-toe-kb.json" "tic-tac-toe-features.json" "tic-tac-toe-kb.lisp" "tic-tac-toe-features.yaml" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/Minimal/" (23328 22713 854194 200000) "minimal-kb.json" "minimal-kb.yaml" "minimal-features.xml" "minimal-kb.lisp" "minimal-features.json" "minimal-features.yaml" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/examples/" (23329 33018 137907 318000) "Maximal/" "Car-Battery/" "example.py" "Miscellaneous/" "Minimal/" "Weapons/" ".DS_Store" "Tic-Tac-Toe/" "../" "./")
 
  ("/Applications/Emacs.app/Contents/Resources/etc/" (23311 20357 0 0) "yow.lines" "DEBUG" "e/" "NEXTSTEP" "emacs.desktop" "themes/" "publicsuffix.txt.gz" "JOKES" "ORDERS" "future-bug" "MH-E-NEWS" "HELLO" "ORG-NEWS" "compilation.txt" "DOC" "tutorials/" "HISTORY" "MORE.STUFF" "MACHINES" "package-keyring.gpg" "NEWS" "gnus-tut.txt" "NEWS.20" "COPYING" "NEWS.18" "DISTRIB" "schema/" "NEWS.19" "CALC-NEWS" "enriched.txt" "NEWS.1-17" "NEWS.21" "emacs-buffer.gdb" "TODO" "GNU" "README" "LINUX-GNU" "NXML-NEWS" "PROBLEMS" "ETAGS.EBNF" "THE-GNU-PROJECT" "rgb.txt" "TERMS" "srecode/" "GNUS-NEWS" "emacs.service" "org/" "refcards/" "images/" "AUTHORS" "nxml/" "charsets/" "WHY-FREE" "spook.lines" "grep.txt" "ps-prin0.ps" "emacs.appdata.xml" "DEVEL.HUMOR" "forms/" "ses-example.ses" "edt-user.el" "gnus/" "ETAGS.README" "NEWS.24" "NEWS.23" "emacs.icon" "FTP" "NEWS.22" "NEWS.25" "CENSORSHIP" "ERC-NEWS" "ps-prin1.ps" "../" "./")
 
- ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/" (23328 21759 124167 885000) ".cache/" "data/" ".git/" "blperfecta/" ".ipynb_checkpoints/" "examples/" ".gitignore" "setup.py" "README.md" "docs/" "MANIFEST.in" "tests/" "blperfecta.egg-info/" "requirements.txt" "LICENSE" ".DS_Store" "../" "./")
-
  ("/Users/jcasse/Personal/GitHub/emacs/.emacs.d/local-packages/" (23327 5 474860 457000) "minimal.el" "flymd.el" "smart-mode-line.el" "flymd.html" "../" "./")
-
- ("/Users/jcasse/Personal/" (23315 33215 867750 833000) "fonts/" "Volkswagen Credit -- One-time Payment Confirmation.pdf" "Spectrum/" "Tracy Jones/" "Renters Insurance Policy.pdf" "billinghistory (3).pdf" "Volkswagen Credit -- One-time Payment Confirmation Tax.pdf" "Make a One-Time Payment.pdf" "American Express _ Payment Center.pdf" "Lisa/" "Sonja Finnie/" "GitHub/" "Sabrina/" "Pay Bill_ Success _ My Account _ SoCalGas.pdf" "VW/" "American Express _ Payment Center Feb 2018.pdf" "billinghistory (2).pdf" "Evertec Inc, - Payment Receipt 2018-01-24.pdf" "Pay Rent-2018-02.pdf" "Pay Rent.pdf" "Cindy/" "Evertec Inc, - Payment Receipt.pdf" "billinghistory (1).pdf" "Figliozzi/" "Glendale Water & Power - Online Services.pdf" "Lance Bao Gmail - Recommendation.pdf" "Spectrum.net Billing.pdf" "Bank of America _ Online Banking _ Bill Pay _ Payment Confirmation.pdf" "Residential Turn Off Service Program Print.pdf" ".DS_Store" "billinghistory.pdf" "Altana/" "Pay Rent History.pdf" "Bank of America _ Online Banking _ Bill Pay _ e-Bills _ Pay e-Bill_ Scheduled.pdf" "../" "./")
 
  ("/Users/" (23044 44350 340557 186000) "Guest/" "Shared/" ".localized" "jcasse/" "../" "./")
 
@@ -189,8 +238,6 @@
 
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/" (23312 26198 224180 269000) "fonts/" "plasticity40.png" "mutable.js" "Weapons.lisp" "chandas1-2.ttf" "WeaponsInput.txt" "plasticity400.png" "js/" "images/" "css/" ".DS_Store" "favicon.ico" "skin-lion/" "../" "./")
 
- ("/Users/jcasse/Personal/GitHub/" (23304 10628 841465 1000) "perfecta-web-ide/" "MobileSDKTestAutomationFramework/" "fuzzy-inference-engine/" "bash/" "emacs/" "co-clustering/" "codelab/" ".DS_Store" "vim/" "../" "./")
-
  ("/Users/jcasse/Beyond/GitHub/perfecta/" (23097 50617 992407 782000) ".git/" "COPYRIGHT" "scripts/" "VERSION" ".gitignore" "Lisp-Applications/" "README.md" "builds/" "Interface-Directory/" "CHANGES" "Documentation/" "../" "./")
 
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/input/" (23209 20446 846934 787000) "../" "./")
@@ -202,10 +249,6 @@
  ("/Users/jcasse/Personal/GitHub/codelab/Web/Tabs/frontend-client/stylesheet/" (23296 29745 257877 583000) "footer.css" "layout.css" "resize.css" "navbar.css" "content.css" "marquee.css" "../" "./")
 
  ("/Users/jcasse/Personal/GitHub/codelab/Web/Tabs/" (23290 16305 905376 640000) "backend-server/" ".gitignore" "README.md" "frontend-client/" ".DS_Store" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/codelab/Web/" (23290 15593 964467 196000) "Resize/" "Tabs/" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/codelab/" (23290 16542 551405 357000) ".git/" ".gitignore" "README.md" "Web/" "Python/" "LICENSE" "../" "./")
 
  ("/Users/jcasse/CodeLab/Web/Resize/" (23288 63098 482770 133000) "javascript/" "README.md" "stylesheet/" "index.html" ".index.html.swp" "../" "./")
 
@@ -235,12 +278,6 @@
  ("/Users/jcasse/website/stylesheet/" (23287 58495 111560 477000) "footer.css" "index_1.css" "index.css" "navbar.css" "content.css" "../" "./")
 
  ("/Users/jcasse/Personal/GitHub/emacs/.emacs.d/elpa/evil-indent-textobject-0.2/" (23154 18908 891340 487000) "evil-indent-textobject-pkg.el" "evil-indent-textobject-autoloads.el" "evil-indent-textobject.el" "evil-indent-textobject.elc" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/data/" (23212 5253 158701 591000) "db/" "users/" "Weapons.lisp" ".temp/" "WeaponsInput.txt" "input/" "kb/" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/" (23278 15738 552150 359000) "perfecta-web-ide/" "perfecta-python-interface/" "data/" "perfecta/" "fuzzy-inference-engine/" "patch" ".DS_Store" "../" "./")
-
- ("/Users/jcasse/Beyond/" (23220 10448 691676 47000) "Samsung (Andrew) (Brief) 04.pptx" "IP/" "WellMD.pptx" ".ipynb_checkpoints/" "HR/" "GitHub/" "Samsung (Andrew) 01.pptx" "README.md" "Projects/" ".DS_Store" "../" "./")
 
  ("/Users/jcasse/BL/GitHub/perfecta-web-ide/app/" (23283 50652 55855 154000) "fancytree.py" "views.py" ".#process_registry.py" "classes.py" "templates/" "helper.py" "static/" "utils.py" "filesysteminterface.py" "forms.py" "__pycache__/" "keys.py" "__init__.py" "constants.py" "perfecta_helper.py" "process_registry.py" "diskfilesystem.py" "../" "./")
 
@@ -283,38 +320,6 @@
  ("/Users/jcasse/BL/GitHub/perfecta-web-ide/data/users/" (23225 30885 191876 336000) "None/" "user12@beyond.ai/" "user6@beyond.ai/" "Andrew Bock/" "user13@beyond.ai/" "user7@beyond.ai/" ".placeholder" "jcasse@beyond.ai/" ".temp/" "user2@beyond.ai/" "User 2/" "user9@beyond.ai/" ".kb/" "user10@beyond.ai/" "user4@beyond.ai/" "pfigliozzi@beyond.ai/" "Juan Casse/" "user3@beyond.ai/" "jcasse/" "user8@beyond.ai/" "user11@beyond.ai/" "user5@beyond.ai/" "../" "./")
 
  ("/Users/jcasse/BL/GitHub/perfecta-web-ide/data/users/jcasse@beyond.ai/" (23208 23039 566838 699000) ".temp/" "projects/" ".kb/" "../" "./")
-
- ("/Users/jcasse/BL/GitHub/perfecta-web-ide/data/users/jcasse@beyond.ai/projects/" (23254 13000 954469 192000) "Sample Project/" "New Project/" "../" "./")
-
- ("/Users/jcasse/AndroidStudioProjects/" (23210 61775 855085 694000) "../" "./")
-
- ("/Users/jcasse/BL/GitHub/perfecta-web-ide/data/users/jcasse@beyond.ai/projects/prj6/" (23247 58756 300870 348000) "graph.gv" "graph.svg" "foo.txt" "Weapons.lisp" "graph.png" ".temp/" "WeaponsInput.txt" ".kb/" "Input/" "KB/" "../" "./")
-
- ("/Users/jcasse/BL/IP/Perfecta/Web IDE/" (23218 34592 354117 417000) "perfecta-web-ide.pptx" "20171009_102825.jpg" ".DS_Store" "../" "./")
-
- ("/Users/jcasse/Personal/Figliozzi/jaccard/" (23225 6633 594220 536000) "jaccard_index.txt" "01_implementing-clustering-validation-measures_instructions.html" "clustering_4.txt" "clustering_5.txt" "clustering_2.txt" "clustering_3.txt" "clustering_1.txt" "__MACOSX/" "jaccard_hwk.py" "partitions.txt" "01_implementing-clustering-validation-measures_data.zip" "../" "./")
-
- ("/Users/jcasse/Personal/Figliozzi/" (23225 19541 624917 460000) "jaccard/" ".DS_Store" "../" "./")
-
- ("/Users/jcasse/BL/GitHub/perfecta-web-ide/Examples/" (23222 49634 214157 287000) "Car-Battery/" "Tic-Tac-Tie/" "Weapons/" "../" "./")
-
- ("/Users/jcasse/BL/" (23220 10448 691676 47000) "Samsung (Andrew) (Brief) 04.pptx" "IP/" "WellMD.pptx" ".ipynb_checkpoints/" "HR/" "GitHub/" "Samsung (Andrew) 01.pptx" "README.md" "Projects/" ".DS_Store" "../" "./")
-
- ("/Users/jcasse/BL/IP/" (23032 50163 0 0) "Perfecta/" "Beam/" "Other/" "Shine/" ".DS_Store" "Magpie/" "Hunter/" "../" "./")
-
- ("/Applications/Lisp-Applications/Connection-Play/" (23100 26648 356916 308000) "Build-Play-Service.lisp" "Data-Files/" "Sources/" "Knowledge-Bases/" "Boot-Play.lisp" "Interface-Directory/" "Play-Service" ".DS_Store" "../" "./")
-
- ("/Applications/Lisp-Applications/" (23100 26680 606310 313000) "Connection-Play/" "../" "./")
-
- ("/Applications/" (23210 43330 220422 123000) "System Preferences.app/" "Calendar.app/" "Slack.app/" "Automator.app/" "Anaconda-Navigator.app/" "Microsoft PowerPoint.app/" "App Store.app/" "Reminders.app/" "Postman.app/" "Launchpad.app/" "Emacs.app/" "Firefox.app/" "iTunes.app/" "Android Studio.app/" "Skype.app/" "FileZilla.app/" "Calculator.app/" "Microsoft OneNote.app/" "Messages.app/" "Photos.app/" "Python 3.6/" "Stickies.app/" "Pages.app/" "Mission Control.app/" "Maps.app/" "Microsoft Outlook.app/" "FaceTime.app/" "Font Book.app/" "Utilities/" "Time Machine.app/" "Microsoft Excel.app/" "Lisp-Applications/" "Contacts.app/" "Dictionary.app/" "Safari.app/" "Mail.app/" "Docker.app/" "Microsoft Word.app/" "TextEdit.app/" "Inkscape.app/" "Spotify.app/" "Dashboard.app/" "Xcode.app/" "Preview.app/" "Dropbox.app/" ".localized" "Google Chrome.app/" "iBooks.app/" "Image Capture.app/" "Notes.app/" ".DS_Store" "Photo Booth.app/" "Chess.app/" "QuickTime Player.app/" "Siri.app/" "DVD Player.app/" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/data/users/" (23201 57336 780506 990000) "user6@beyond.ai/" "Andrew Bock/" ".placeholder" "jcasse@beyond.ai/" "user2@beyond.ai/" "User 2/" "user4@beyond.ai/" "Juan Casse/" "user3@beyond.ai/" "user5@beyond.ai/" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/data/users/jcasse@beyond.ai/" (23201 57336 780561 436000) "projects/" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/data/users/jcasse@beyond.ai/projects/" (23208 17383 663658 453000) "sergey/" "prj_4/" "project_5/" "p_1/" "prj_6/" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/data/users/jcasse@beyond.ai/projects/prj_6/" (23208 19111 541912 972000) "foo.txt" "Weapons.lisp" ".temp/" "WeaponsInput.txt" ".kb/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
