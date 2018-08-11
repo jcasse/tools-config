@@ -1,4 +1,4 @@
-;;; Package --- Emacs configuration.
+;;; PACKAGE --- Emacs configuration.
 
 ;;; Commentary:
 
@@ -10,22 +10,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (server-start)
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Get PATH from bash
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-(defun get-bash-path ()
-  (interactive)
-  (let ((path (shell-command-to-string "if [[ -f ~/.bash_profile ]]; then . ~/.bash_profile; elif [[ -f ~/.bashrc ]]; then . ~/.bashrc; fi; echo -n $PATH")))
-    (message "path: %s" path)
-    (setenv "PATH" path)
-    (setq exec-path
-          (append
-           (split-string-and-unquote path ":")
-           exec-path)))
-  )
-(get-bash-path)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Load local packages
@@ -88,6 +72,14 @@
                 'comment-dwim)
 ;; Display buffer list in other window.
 (define-key global-map [remap list-buffers] 'buffer-menu-other-window)
+
+;; The following keybindings are only for two windows layout.
+;; You can use M-[ or M-] to navigate the pages while your cursor is in
+;; another window.
+(fset 'doc-prev "\C-xo\C-x[\C-xo")
+(fset 'doc-next "\C-xo\C-x]\C-xo")
+(global-set-key (kbd "M-[") 'doc-prev)
+(global-set-key (kbd "M-]") 'doc-next)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; This is a hook that executes before a source code file is loaded.
@@ -260,6 +252,53 @@
 ;; (define-key read-expression-map [(shift tab)] 'hippie-unexpand)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; PATH and exec-path
+;;
+;; The problem on Mac OS X is that Mac OS does not set the environment the
+;; same when you call a program from the global UI or when you call it from a
+;; shell. This means that running Emacs from a shell will result in different
+;; environment variables being set than when you run it from the finder. This
+;; is especially annoying if you set environment variables in .bashrc or
+;; similar, as that won't affect the "global" Emacs.
+;;
+;; NOTE:
+;;       https://www.emacswiki.org/emacs/ExecPath
+;;       https://emacs.stackexchange.com/questions/550/exec-path-and-path
+;;            PATH: its value is used by Emacs' shell and eshell
+;;       exec-path: its value is used by Emacs when searching for programs
+;;       Emacs does set exec-path from the value of PATH on startup, but will
+;;       not look at it again later.
+;;
+;; Adding to the variables can be done in two ways:
+;;   - (add-to-list 'exec-path "<path>") ;this adds to the beginning
+;;   - (setq exec-path (append '("<path1>" "<path2" ... ) exec-path))
+;;
+;; NOTE: The variable load-path is for EmacsLisp libraries.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Get PATH from bash environment
+;; (defun get-bash-path ()
+;;   (interactive)
+;;   (let ((path (shell-command-to-string "if [[ -f ~/.bash_profile ]]; then . ~/.bash_profile; elif [[ -f ~/.bashrc ]]; then . ~/.bashrc; fi; echo -n $PATH")))
+;;     (message "path: %s" path)
+;;     (setenv "PATH" path)
+;;     (setq exec-path
+;;           (append
+;;            (split-string-and-unquote path ":")
+;;            exec-path)))
+;;   )
+;; (get-bash-path)
+
+;; (setq exec-path (append exec-path '("/usr/local/bin")))
+
+;; The exec-path-from-shell package does the same thing as the function above!
+;;(exec-path-from-shell-initialize)
+(when (memq window-system '(mac ns)) (exec-path-from-shell-initialize))
+;;(use-package exec-path-from-shell
+;;  :init
+;;  (exec-path-from-shell-initialize))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; LaTeX
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -275,27 +314,28 @@
   (add-hook 'LaTeX-mode-hook 'flyspell-mode)
   (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
   (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
+  (add-hook 'LaTeX-mode-hook 'display-line-numbers-mode)
   (setq reftex-plug-into-AUCTeX t)
   )
 
-;; Document View
+(add-hook 'emacs-lisp-mode-hook 'display-line-numbers-mode)
 
-;; GhostScript binary location
-(setq doc-view-ghostscript-program "/usr/local/bin/gs")
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Document View
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (add-hook 'doc-view-mode-hook
           (lambda ()
-            (auto-revert-mode)))
-;                                (doc-view-fit-width-to-window)))
+            (auto-revert-mode))) ;update document image upon change
 
+;; Auto fit image to window width
+;; Does not work strait up because the PDF file is first converted to PNG
+;; and then displayed as PNG. So, the (doc-view-fit-width-to-window) fails
+;; because the image still has not been loaded.
+;; There is a solution that employs timers:
+;; http://lists.gnu.org/archive/html/emacs-devel/2012-03/msg00407.html
+;; For now, do it by hand: M-x doc-view-fit-width-to-window RET
 
-;; The following keybindings are only for two windows layout.
-;; You can use M-[ or M-] to navigate the pages while your cursor is in
-;; another window.
-(fset 'doc-prev "\C-xo\C-x[\C-xo")
-(fset 'doc-next "\C-xo\C-x]\C-xo")
-(global-set-key (kbd "M-[") 'doc-prev)
-(global-set-key (kbd "M-]") 'doc-next)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Variables set via Emacs interface.
@@ -337,7 +377,7 @@
      ("melpa stable" . "https://stable.melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (auctex smart-mode-line-powerline-theme flymd smart-tab markdown-mode mic-paren flycheck rebecca-theme ahungry-theme magit evil-indent-textobject evil-surround evil-jumper evil-leader use-package evil rainbow-mode web-mode)))
+    (exec-path-from-shell auctex smart-mode-line-powerline-theme flymd smart-tab markdown-mode mic-paren flycheck rebecca-theme ahungry-theme magit evil-indent-textobject evil-surround evil-jumper evil-leader use-package evil rainbow-mode web-mode)))
  '(recentf-max-saved-items 500)
  '(recentf-mode t)
  '(red "#ffffff")
@@ -360,8 +400,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (setq column-number-mode t)
-
-(add-hook 'emacs-lisp-mode-hook 'display-line-numbers-mode)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Spell checking.

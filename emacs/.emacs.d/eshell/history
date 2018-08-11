@@ -1,8 +1,4 @@
 ls
-cd ..
-ls
-cd db
-ls
 cd journal/
 ls
 cd ..
@@ -126,3 +122,7 @@ getenv
 getenv PATH
 getenv
 getenv PATH
+getenv PATH
+getenv exec-path
+getenv "exec-path"
+getenv

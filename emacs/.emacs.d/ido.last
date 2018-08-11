@@ -52,10 +52,10 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/jcasse/Personal/GitHub/ai/doc/"
+ "/Users/jcasse/"
  "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/"
  "/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/"
  "/Users/jcasse/Dropbox/"
- "/Users/jcasse/"
  "/Users/jcasse/Personal/"
  "/Users/jcasse/Personal/Tracy Jones/"
  "/Users/jcasse/Dropbox/orgmode/"
@@ -106,6 +106,7 @@
 ;; ----- ido-work-file-list -----
 (
  "statistics.pdf"
+ ".bash_profile"
  "endpoints.py"
  "init.el"
  "emacs_refcard.pdf"
@@ -114,14 +115,13 @@
  "emacs.org"
  "distributions.pdf"
  "statistics.tex"
- "statistics.dvi"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jcasse/Personal/GitHub/ai/doc/" (23404 58462 425444 360000) "statistics.tex" "_region_.log" "_region_.aux" "statistics.pdf" "statistics.log" "statistics.aux" "_region_.pdf" "auto/" "_region_.tex" "../" "./")
+ ("/Users/jcasse/Personal/GitHub/ai/doc/" (23406 6350 674387 222000) "statistics.tex" "_region_.log" "_region_.prv/" "statistics.pdf" "statistics.log" "statistics.aux" "auto/" "_region_.tex" "prv_statistics.log" "../" "./")
 
- ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/" (23404 57504 923169 156000) "auto_saves.saves-7201-Juans-MacBook-Pro.local~" "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "init.el" "tramp" "local-packages/" "places" "abbrev_defs" "eshell/" "ido.last" "../" "./")
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/" (23406 2338 250511 55000) "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "init.el" "auto_saves.saves-5847-Juans-MacBook-Pro.local~" "tramp" "local-packages/" "places" "abbrev_defs" "eshell/" "ido.last" "../" "./")
 
  ("/Users/jcasse/.emacs.d/" (23404 55433 885369 283000) "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "init.el" "tramp" "local-packages/" "places" "abbrev_defs" "eshell/" "ido.last" "../" "./")
 

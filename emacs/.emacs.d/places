@@ -1,13 +1,16 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 10495)
- ("/Users/jcasse/Personal/GitHub/ai/doc/statistics.pdf" . 11761)
- ("/Users/jcasse/Personal/GitHub/ai/doc/statistics.tex" . 588)
- ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 11256)
+(("/Users/jcasse/Personal/GitHub/ai/doc/statistics.pdf" . 11707)
+ ("/Users/jcasse/Personal/GitHub/ai/doc/statistics.tex" . 551)
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 12156)
+ ("/Users/jcasse/Personal/GitHub/ai/doc/_region_.tex" . 797)
+ ("/Users/jcasse/Dropbox/data/data.asc" . 4905)
+ ("/Users/jcasse/Dropbox/tools-config/bash/.bash_profile" . 2667)
+ ("/Users/jcasse/.emacs.d/elpa/exec-path-from-shell-1.11/exec-path-from-shell-autoloads.el" . 1420)
+ ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 12259)
+ ("/Users/jcasse/Personal/GitHub/ai/doc/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/ai/doc/statistics.pdf"))
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/endpoints.py" . 1403)
  ("/Users/jcasse/Dropbox/orgmode/perfecta.org" . 3902)
- ("/Users/jcasse/Personal/GitHub/ai/doc/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/ai/doc/_region_.pdf"))
- ("/Users/jcasse/Personal/GitHub/ai/doc/_region_.tex" . 810)
  ("/Applications/Emacs.app/Contents/Resources/lisp/doc-view.el.gz" . 69862)
  ("/Users/jcasse/Dropbox/"
   (dired-filename . "/Users/jcasse/Dropbox/orgmode"))
@@ -28,9 +31,7 @@
  ("/Users/jcasse/Personal/GitHub/ai/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/ai/doc"))
  ("/Users/jcasse/Dropbox/orgmode/sandman.org" . 402)
- ("/Users/jcasse/Dropbox/tools-config/bash/.bash_profile" . 2657)
  ("/Users/jcasse/Dropbox/orgmode/go.org" . 194)
- ("/Users/jcasse/Dropbox/data/data.asc" . 4919)
  ("/Users/jcasse/Dropbox/data/"
   (dired-filename . "/Users/jcasse/Dropbox/data/data.asc"))
  ("/Users/jcasse/Dropbox/tools-config/"
