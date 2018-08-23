@@ -64,7 +64,7 @@ export HISTCONTROL="ignoredups:erasedups"
 
 # Vim-like editing in command line
 # By default, this is set to Emacs: set -o emacs
-# set -o vi
+set -o vi
 
 # added by Juan Casse
 # Needed by Emacs

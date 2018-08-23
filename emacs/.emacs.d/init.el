@@ -19,6 +19,8 @@
     (setq load-path
           (cons (expand-file-name "~/.emacs.d/local-packages") load-path)))
 
+(require 'flymd)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Package Manager
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -27,6 +29,8 @@
 (setq package-enable-at-startup nil)
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/"))
+(add-to-list 'package-archives
+             '("melpa-stable" . "https://stable.melpa.org/packages/"))
 (add-to-list 'package-archives
              '("marmalade" . "https://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives
@@ -93,6 +97,13 @@
              (flyspell-prog-mode)
              (display-line-numbers-mode)
              (rainbow-mode)))
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Automode alist
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; General preferences.
@@ -338,6 +349,19 @@
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Go Mode
+;; https://github.com/dominikh/go-mode.el
+;; https://johnsogg.github.io/emacs-golang
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Install additional Go tools (godoc, etc.)
+;; Execute from shell:
+;; go get golang.org/x/tools/cmd/...
+
+;; Automatically call gofmt on save
+(add-hook 'before-save-hook 'gofmt-before-save)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Variables set via Emacs interface.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -377,7 +401,7 @@
      ("melpa stable" . "https://stable.melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (exec-path-from-shell auctex smart-mode-line-powerline-theme flymd smart-tab markdown-mode mic-paren flycheck rebecca-theme ahungry-theme magit evil-indent-textobject evil-surround evil-jumper evil-leader use-package evil rainbow-mode web-mode)))
+    (go-mode exec-path-from-shell auctex smart-mode-line-powerline-theme flymd smart-tab markdown-mode mic-paren flycheck rebecca-theme ahungry-theme magit evil-indent-textobject evil-surround evil-jumper evil-leader use-package evil rainbow-mode web-mode)))
  '(recentf-max-saved-items 500)
  '(recentf-mode t)
  '(red "#ffffff")

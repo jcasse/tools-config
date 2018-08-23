@@ -92,10 +92,15 @@
 (define-abbrev-table 'global-abbrev-table
   '(
     ("apsell" "aspell" nil 2)
+    ("geq" "GE" nil 3)
     ("porject" "project" nil 2)
    ))
 
 (define-abbrev-table 'gnus-group-mode-abbrev-table '())
+
+(define-abbrev-table 'go-mode-abbrev-table '())
+
+(define-abbrev-table 'godoc-mode-abbrev-table '())
 
 (define-abbrev-table 'grep-mode-abbrev-table '())
 

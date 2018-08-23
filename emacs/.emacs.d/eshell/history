@@ -1,16 +1,3 @@
-ls
-cd journal/
-ls
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-cd data/
-ls
-cd db/
-ls
 cd ..
 ls
 ls
@@ -126,3 +113,16 @@ getenv PATH
 getenv exec-path
 getenv "exec-path"
 getenv
+getenv GOPATH
+getenv PATH
+getenv GOROOT
+ls
+pandoc README.md foo.html
+pandoc --help
+ls
+ls
+pandoc -f gfm -t html -o foo.html README.md
+pandoc -f md -t html -o foo.html README.md
+pandoc -f markdown -t html -o foo.html README.md
+ls
+open foo.html
