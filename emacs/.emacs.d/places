@@ -1,13 +1,50 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/jcasse/Dropbox/orgmode/news.org" . 2)
- ("/Users/jcasse/Dropbox/orgmode/"
-  (dired-filename . "/Users/jcasse/Dropbox/orgmode/perfecta.org"))
- ("/Users/jcasse/Dropbox/orgmode/development.org" . 2)
- ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 8628)
+(("/Users/jcasse/Dropbox/orgmode/machinelearning.org" . 656)
+ ("/Users/jcasse/Dropbox/orgmode/development.org" . 145)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/tools"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/.gitignore" . 12)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/tools/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/tools/README.md"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/tools/README.md" . 623)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/thirdparty/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/thirdparty/README.md"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/thirdparty/README.md" . 72)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/README.md"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/README.md" . 50)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/README.md"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/README.md" . 384)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/lib/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/lib/README.md"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/lib/README.md" . 212)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/include/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/include/README.md"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/include/README.md" . 471)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/docs/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/docs/README.md"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/docs/README.md" . 178)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/README.md"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/README.md" . 167)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/bin/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/bin/README.md"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/bin/README.md" . 119)
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/"
   (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/README.md"))
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 3624)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/README.md" . 13)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/decision-tree/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/decision-tree/src"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/decision-tree/src/" . 228)
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/README.md" . 1019)
- ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 615)
+ ("/Users/jcasse/Dropbox/orgmode/news.org" . 2)
+ ("/Users/jcasse/Dropbox/orgmode/"
+  (dired-filename . "/Users/jcasse/Dropbox/orgmode/perfecta.org"))
+ ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 8628)
  ("/Users/jcasse/"
   (dired-filename . "/Users/jcasse/go"))
  ("/Users/jcasse/go/"
@@ -87,7 +124,6 @@
   (dired-filename . "/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/elpa/auctex-12.1.1/auctex.spec"))
  ("/Users/jcasse/.emacs.d/elpa/auctex-12.1.1/auctex-autoloads.el" . 13865)
  ("/Users/jcasse/Dropbox/orgmode/macbookpro.org" . 151)
- ("/Users/jcasse/Dropbox/orgmode/machinelearning.org" . 656)
  ("/Users/jcasse/Dropbox/orgmode/datascience.org" . 309)
  ("/Users/jcasse/Personal/GitHub/ai/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/ai/doc"))

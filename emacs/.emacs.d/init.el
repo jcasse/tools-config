@@ -19,8 +19,6 @@
     (setq load-path
           (cons (expand-file-name "~/.emacs.d/local-packages") load-path)))
 
-(require 'flymd)
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Package Manager
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -100,10 +98,41 @@
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Automode alist
+;; Markdown
+;;
+;; flymd (Syntax highlighting and html rendering)
+;; To render the markdown in html in Firefox:
+;;   M-x flymd-flyit
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(require 'flymd)
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; CMake
+;;
+;; cmake-mode (Syntax highlighting)
+;; https://gitlab.kitware.com/cmake/community/wikis/doc/editors/Emacs
+;;
+;; cmake-project (CMake build process integration with Emacs)
+;; https://github.com/alamaison/emacs-cmake-project
+;; To compile code:
+;;   M-x cmake-project-configure-project
+;;   M-x compile
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(require 'cmake-mode)
+(setq auto-mode-alist
+      (append
+       '(("CMakeLists\\.txt\\'" . cmake-mode))
+       '(("\\.cmake\\'" . cmake-mode))
+       auto-mode-alist))
+
+(require 'cmake-project)
+(defun maybe-cmake-project-hook ()
+  (if (file-exists-p "CMakeLists.txt") (cmake-project-mode)))
+(add-hook 'c-mode-hook 'maybe-cmake-project-hook)
+(add-hook 'c++-mode-hook 'maybe-cmake-project-hook)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; General preferences.
@@ -401,7 +430,7 @@
      ("melpa stable" . "https://stable.melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (go-mode exec-path-from-shell auctex smart-mode-line-powerline-theme flymd smart-tab markdown-mode mic-paren flycheck rebecca-theme ahungry-theme magit evil-indent-textobject evil-surround evil-jumper evil-leader use-package evil rainbow-mode web-mode)))
+    (cmake-project cmake-mode go-mode exec-path-from-shell auctex smart-mode-line-powerline-theme flymd smart-tab markdown-mode mic-paren flycheck rebecca-theme ahungry-theme magit evil-indent-textobject evil-surround evil-jumper evil-leader use-package evil rainbow-mode web-mode)))
  '(recentf-max-saved-items 500)
  '(recentf-mode t)
  '(red "#ffffff")
