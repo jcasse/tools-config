@@ -412,6 +412,7 @@
  '(epa-file-name-regexp "\\.\\(gpg\\|asc\\)\\(~\\|\\.~[0-9]+~\\)?\\'")
  '(epg-gpg-program "/usr/local/bin/gpg")
  '(fill-column 78)
+ '(flycheck-clang-language-standard "c++17")
  '(flycheck-disabled-checkers (quote (python-pycompile python-pylint)))
  '(flycheck-python-flake8-executable "/Users/jcasse/anaconda3/bin/flake8")
  '(global-display-line-numbers-mode nil)
@@ -430,7 +431,7 @@
      ("melpa stable" . "https://stable.melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (cmake-project cmake-mode go-mode exec-path-from-shell auctex smart-mode-line-powerline-theme flymd smart-tab markdown-mode mic-paren flycheck rebecca-theme ahungry-theme magit evil-indent-textobject evil-surround evil-jumper evil-leader use-package evil rainbow-mode web-mode)))
+    (cpputils-cmake cmake-project cmake-mode go-mode exec-path-from-shell auctex smart-mode-line-powerline-theme flymd smart-tab markdown-mode mic-paren flycheck rebecca-theme ahungry-theme magit evil-indent-textobject evil-surround evil-jumper evil-leader use-package evil rainbow-mode web-mode)))
  '(recentf-max-saved-items 500)
  '(recentf-mode t)
  '(red "#ffffff")
@@ -447,6 +448,19 @@
  ;; If there is more than one, they won't work right.
  '(line-number-current-line ((t (:inherit line-number :foreground "dark magenta")))))
 (put 'dired-find-alternate-file 'disabled nil)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;  CC Mode (for editing files containing C, C++, Objective-C, Java, etc.)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(setq-default c-basic-offset 4)
+
+(defun my-c-mode-common-hook ()
+  "Set up coding style for C-type family of languages."
+  (setq flycheck-gcc-language-standard "c++17")
+  (rainbow-mode 0))
+
+(add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Line Numbers

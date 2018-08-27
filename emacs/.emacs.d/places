@@ -1,22 +1,95 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/jcasse/Dropbox/orgmode/machinelearning.org" . 656)
- ("/Users/jcasse/Dropbox/orgmode/development.org" . 145)
- ("/Users/jcasse/Personal/GitHub/machine-learning/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world"))
+(("/Users/jcasse/Personal/GitHub/machine-learning/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/serial.h" . 126)
+ ("/Users/jcasse/Dropbox/orgmode/development.org" . 544)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/CMakeLists.txt" . 48)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/tex"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/tex/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/tex/pcim.tex"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/tex/pcim.tex" . 1003)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/.."))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/endpoints.py"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/process_registry.py" . 6886)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/endpoints.py" . 2688)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/web_service.py" . 8906)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/main.cpp" . 151)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test.cpp" . 385)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/src"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/label.h" . 723)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/traj.h"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartraj.h" . 482)
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 18272)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/traj.h" . 490)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test.cpp"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/" . 228)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/endpoints.sh" . 491)
+ ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 12275)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/test/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/test/tester"))
+ ("/Users/jcasse/Dropbox/data/data.asc" . 468)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/CMakeLists.txt" . 527)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/src/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/src/main"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/bin/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/bin/README.md"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/main.cpp" . 134)
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/tools"))
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/.gitignore" . 12)
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/helloworld.h"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/helloworld.h" . 173)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/bin/" . 287)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/src"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/src/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/src/CMakeFiles"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/CMakeLists.txt" . 30)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/CMakeLists.txt" . 359)
+ ("/Users/jcasse/.emacs.d/elpa/cpputils-cmake-5.5/cpputils-cmake-autoloads.el" . 1121)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/exceptions.py" . 1299)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/README.md"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/README.md" . 866)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/ide_endpoints.py" . 594)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/helper.py" . 1351)
+ ("/Users/jcasse/Dropbox/orgmode/git.org" . 5379)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/run.py" . 528)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/test_1.cpp"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/test_1.cpp" . 24)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/CMakeLists.txt" . 16)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/README.md" . 50)
+ ("/Users/jcasse/Beyond/GitHub/pcim/pcim.cpp" . 4280)
+ ("/Users/jcasse/Beyond/GitHub/pcim/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/pcim/pcim.h"))
+ ("/Users/jcasse/Beyond/GitHub/pcim/pcim.h" . 34059)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/utils.py" . 287)
+ ("/Users/jcasse/temp/"
+  (dired-filename . "/Users/jcasse/temp/tutorial.cxx"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/CMakeFiles/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/CMakeFiles/3.11.3"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/CMakeFiles/3.11.3/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/CMakeFiles/3.11.3/CMakeCCompiler.cmake"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/tools/README.md" . 466)
+ ("/Users/jcasse/.emacs.d/elpa/cmake-project-0.7/cmake-project-autoloads.el" . 973)
+ ("/Users/jcasse/.emacs.d/elpa/cmake-mode-3.12.1/cmake-mode-autoloads.el" . 1604)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/docs/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/docs/README.md"))
+ ("/Users/jcasse/Dropbox/orgmode/machinelearning.org" . 656)
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/tools/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/tools/README.md"))
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/tools/README.md" . 623)
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/thirdparty/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/thirdparty/README.md"))
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/thirdparty/README.md" . 72)
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/README.md"))
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/README.md" . 50)
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/README.md"))
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/README.md" . 384)
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/lib/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/lib/README.md"))
@@ -24,27 +97,12 @@
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/include/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/include/README.md"))
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/include/README.md" . 471)
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/docs/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/docs/README.md"))
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/docs/README.md" . 178)
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/README.md"))
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/README.md" . 167)
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/bin/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/bin/README.md"))
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/bin/README.md" . 119)
- ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/"
-  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/README.md"))
- ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 3624)
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/README.md" . 13)
- ("/Users/jcasse/Personal/GitHub/machine-learning/decision-tree/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/decision-tree/src"))
- ("/Users/jcasse/Personal/GitHub/machine-learning/decision-tree/src/" . 228)
- ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/README.md" . 1019)
  ("/Users/jcasse/Dropbox/orgmode/news.org" . 2)
  ("/Users/jcasse/Dropbox/orgmode/"
   (dired-filename . "/Users/jcasse/Dropbox/orgmode/perfecta.org"))
- ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 8628)
  ("/Users/jcasse/"
   (dired-filename . "/Users/jcasse/go"))
  ("/Users/jcasse/go/"
@@ -65,16 +123,12 @@
   (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/tests/test_utils.py"))
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/tests/test_utils.py" . 945)
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/xform.py" . 10348)
- ("/Users/jcasse/Dropbox/orgmode/git.org" . 5220)
  ("/Users/jcasse/.emacs.d/elpa/go-mode-1.5.0/go-mode-autoloads.el" . 3224)
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/tests/kb_concepts.lisp" . 1076)
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/"
   (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/exceptions.py"))
- ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/exceptions.py" . 507)
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/perfecta_helper.py" . 389)
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/perfecta.py" . 3250)
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
-  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/perfecta-python-interface"))
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/perfecta-python-interface/"
   (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/perfecta-python-interface/blperfecta"))
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/perfecta-python-interface/blperfecta/"
@@ -87,11 +141,8 @@
   (dired-filename . "/Users/jcasse/Personal/GitHub/pcim/.git"))
  ("/Users/jcasse/Beyond/"
   (dired-filename . "/Users/jcasse/Beyond/.DS_Store"))
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/"
-  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/helper.py"))
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/perfecta-python-interface/blperfecta/utils.py" . 6858)
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/utils.py" . 6780)
- ("/Users/jcasse/Dropbox/data/data.asc" . 4265)
  ("/Users/jcasse/Research/"
   (dired-filename . "/Users/jcasse/Research/Machine Learning"))
  ("/Users/jcasse/Research/Machine Learning/"
@@ -111,7 +162,6 @@
  ("/Users/jcasse/Downloads/texbook.tex" . 5599)
  ("/Users/jcasse/Dropbox/tools-config/bash/.bash_profile" . 2667)
  ("/Users/jcasse/.emacs.d/elpa/exec-path-from-shell-1.11/exec-path-from-shell-autoloads.el" . 1420)
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/endpoints.py" . 1403)
  ("/Users/jcasse/Dropbox/orgmode/perfecta.org" . 3902)
  ("/Applications/Emacs.app/Contents/Resources/lisp/doc-view.el.gz" . 69862)
  ("/Users/jcasse/Dropbox/"
@@ -135,20 +185,13 @@
  ("/Users/jcasse/Dropbox/tools-config/emacs/"
   (dired-filename . "/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d"))
  ("/Users/jcasse/Dropbox/orgmode/python.org" . 3865)
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/helper.py" . 14125)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/.idea/"
   (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/.idea/.."))
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/doc/"
   (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/doc/.."))
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/"
-  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/newFile.py"))
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/newFile.py" . 1116)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/README.md" . 10959)
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/endpoints.sh" . 382)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/init.py" . 201)
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/web_service.py" . 1001)
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/process_registry.py" . 834)
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/utils.py" . 3126)
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/__init__.py" . 680)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/diskfilesystem.py" . 94)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/__init__.py" . 7306)
@@ -165,7 +208,6 @@
   (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js/project.js"))
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js/project.js" . 54728)
  ("/Users/jcasse/Dropbox/orgmode/gnu.org" . 587)
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/run.py" . 23)
  ("/Users/jcasse/Dropbox/orgmode/javascript.org" . 545)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/config.py" . 272)
  ("/Users/jcasse/Dropbox/orgmode/windows.org" . 9128)
