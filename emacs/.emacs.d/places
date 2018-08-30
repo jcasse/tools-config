@@ -1,5 +1,7 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/"
+(("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 4082)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/README.md" . 97)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartraj.h"))
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartraj.h" . 3086)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_vartraj.cpp" . 2938)
@@ -9,8 +11,6 @@
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/README.md"))
  ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 8590)
- ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 4069)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/README.md" . 97)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/" . 290)
  ("/Users/jcasse/Dropbox/data/data.asc" . 6595)
  ("/Users/jcasse/Dropbox/orgmode/news.org" . 410)

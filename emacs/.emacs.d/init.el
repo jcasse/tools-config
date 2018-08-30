@@ -111,11 +111,9 @@
   :mode (("README\\.md\\'" . gfm-mode)
          ("\\.md\\'" . markdown-mode)
          ("\\.markdown\\'" . markdown-mode))
-  :init (setq markdown-command "multimarkdown"))
-
-(use-package flymd)
-;;(require 'flymd)
-;;(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+  :init (setq markdown-command "multimarkdown")
+  :config
+  (use-package flymd))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; CMake
@@ -364,8 +362,7 @@
   (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
   (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
   (add-hook 'LaTeX-mode-hook 'display-line-numbers-mode)
-  (setq reftex-plug-into-AUCTeX t)
-  )
+  (setq reftex-plug-into-AUCTeX t))
 
 (add-hook 'emacs-lisp-mode-hook 'display-line-numbers-mode)
 
