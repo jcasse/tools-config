@@ -102,6 +102,14 @@
 ;;
 ;; To render the markdown in html in default browser:
 ;;   M-x flymd-flyit
+;;
+;; Markdown Mode - syntax highlighting
+;; GFM Mode (GitHub Flavored Markdown) - syntax highlighting
+;; Flymd - HTML rendering
+;;
+;; https://jblevins.org/projects/markdown-mode/
+;; https://codemirror.net/mode/gfm/
+;; https://leanpub.com/markdown-mode/read#gfm
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (use-package markdown-mode
