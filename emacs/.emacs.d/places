@@ -1,21 +1,31 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 4082)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/README.md" . 97)
+(("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_vartraj.cpp" . 7361)
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
+  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/README.md"))
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/README.md" . 1244)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/README.md" . 219)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/test"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_traj.cpp" . 1281)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/CMakeLists.txt"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/traj.h" . 961)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartrajrange.h" . 598)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/data.h" . 506)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartraj.h"))
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartraj.h" . 3086)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_vartraj.cpp" . 2938)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/CMakeLists.txt" . 1010)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/.."))
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/README.md"))
- ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 8590)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/pcim.h" . 8216)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/pcimtest.h" . 7247)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartraj.h" . 4385)
+ ("/Users/jcasse/Dropbox/data/data.asc" . 7356)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/CMakeLists.txt" . 409)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_vartrajrange.cpp" . 1729)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/" . 290)
- ("/Users/jcasse/Dropbox/data/data.asc" . 6595)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/var.h" . 204)
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 20778)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_var.cpp" . 950)
+ ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 8590)
  ("/Users/jcasse/Dropbox/orgmode/news.org" . 410)
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
-  (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app"))
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/"
   (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js"))
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js/"
@@ -29,8 +39,6 @@
  ("/Users/jcasse/temp/perfecta/"
   (dired-filename . "/Users/jcasse/temp/perfecta/ist.json"))
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/main.cpp" . 219)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/var.h" . 597)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_var.cpp" . 900)
  ("/Users/jcasse/temp/perfecta/ist.json" . 254)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js/project.js" . 69411)
  ("/Users/jcasse/temp/perfecta/weapons.json" . 1706)
@@ -39,7 +47,6 @@
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/web_service.py" . 8906)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/tex/pcim.tex" . 23457)
  ("/Users/jcasse/Dropbox/orgmode/development.org" . 1093)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/traj.h" . 836)
  ("/Users/jcasse/Personal/GitHub/machine-learning/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim"))
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/"
@@ -201,7 +208,6 @@
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/doc/"
   (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/doc/.."))
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/newFile.py" . 1116)
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/README.md" . 10959)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/init.py" . 201)
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/__init__.py" . 680)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/diskfilesystem.py" . 94)

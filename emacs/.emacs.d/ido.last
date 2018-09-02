@@ -44,7 +44,7 @@
  ("/Users/jcasse/Personal/GitHub/emacs/" . ".emacs.d/")
  ("/Users/jcasse/Personal/GitHub/" . "machine-learning/")
  ("/Users/jcasse/Personal/" . "GitHub/")
- ("/Users/jcasse/Beyond/GitHub/" . "pcim/")
+ ("/Users/jcasse/Beyond/GitHub/" . "perfecta-web-ide/")
  ("/Users/jcasse/Beyond/" . "GitHub/")
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/" . "templates/")
  ("/Applications/Emacs.app/Contents/" . "MacOS/")
@@ -56,12 +56,12 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
  "/Users/jcasse/Personal/GitHub/machine-learning/pcim/"
  "/Users/jcasse/Dropbox/orgmode/"
  "/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/"
  "/Users/jcasse/temp/perfecta/"
  "/Users/jcasse/temp/"
- "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
  "/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/tex/"
  "/Users/jcasse/Dropbox/data/"
  "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/"
@@ -124,15 +124,21 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/" (23432 12760 443047 729000) "src/" "thirdparty/" "Doxyfile" "build/" "lib/" "README.md" "flymd.md" "docs/" "include/" "ChangeLog" "bin/" "test/" "CMakeLists.txt" "tools/" "flymd.html" "../" "./")
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/" (23433 32991 10218 307000) "src/" "CMakeCache.txt" ".gitignore" "CMakeFiles/" "test/" "../" "./")
 
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/" (23432 10964 860894 687000) ".gitignore" "../" "./")
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/" (23433 30616 383052 62000) "src/" "thirdparty/" "Doxyfile" "build/" "lib/" "README.md" "flymd.md" "docs/" "include/" "ChangeLog" "bin/" "test/" "CMakeLists.txt" "tools/" "flymd.html" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/" (23432 26802 547675 604000) "perfecta-python-interface/" "data/" ".git/" "docker-run-wrapper.sh" ".ipynb_checkpoints/" ".gitignore" ".dockerignore" "README.md" "perfecta-web-ide.conf" ".gitmodules" "__pycache__/" "2018.08.29.08.56.52.153/" "2018.08.30.14.59.14.616/" "2018.08.29.08.30.46.770/" "2018.08.29.08.55.58.710/" "Dockerfile" "perfecta-web-ide.wsgi" "test/" "requirements.txt" "LICENSE" "app/" "config.py" ".DS_Store" "run.py" "../" "./")
+
+ ("/Users/jcasse/" (23433 30051 496480 754000) ".viminfo.tmp" ".conda/" ".viminfo" ".bash_history" ".mongorc.js" ".gitconfig" ".cache/" ".python_history" "Downloads/" "anaconda3/" ".Xauthority" "AndroidStudioProjects/" ".bash_profile" "Documents/" ".jupyter/" ".ipynb_checkpoints/" ".Trash/" "Dropbox/" ".gradle/" ".dbshell" "Applications/" ".vimrc" "Movies/" ".ssh/" ".anaconda/" ".vimbak/" ".bash_profile-anaconda3.bak" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".android/" ".emacs.d/" "Emacs/" "mongodb/" "Books/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".gnome2/" "blackscreen.pptx" "Pictures/" ".local/" ".CFUserTextEncoding" "VirtualBox VMs/" ".gnupg/" ".DS_Store" "go/" ".vim/" ".virtualenvs/" "temp/" "Beyond/" ".docker/" ".bash_profile.bak" ".condarc" "Music/" "Personal/" ".config/" "Research/" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/bin/" (23425 48932 399804 665000) "README.md" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/" (23432 13113 695638 879000) "pcim/" ".git/" ".gitignore" "README.md" "hello-world/" "../" "./")
 
  ("/Users/jcasse/.emacs.d/" (23430 60162 659973 219000) "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "init.el" "auto-save-list/" "tramp" "auto_saves.saves-78093-Juans-MacBook-Pro.local~" "local-packages/" "places" "abbrev_defs" "eshell/" ".DS_Store" "ido.last" "../" "./")
 
  ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/" (23430 60162 659973 219000) "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "init.el" "auto-save-list/" "tramp" "auto_saves.saves-78093-Juans-MacBook-Pro.local~" "local-packages/" "places" "abbrev_defs" "eshell/" ".DS_Store" "ido.last" "../" "./")
-
- ("/Users/jcasse/" (23430 57737 452416 127000) ".viminfo.tmp" ".conda/" ".viminfo" ".bash_history" ".mongorc.js" ".gitconfig" ".cache/" ".python_history" "Downloads/" "anaconda3/" ".Xauthority" "AndroidStudioProjects/" ".bash_profile" "Documents/" ".jupyter/" ".ipynb_checkpoints/" ".Trash/" "Dropbox/" ".gradle/" ".dbshell" "Applications/" ".vimrc" "Movies/" ".ssh/" ".anaconda/" ".vimbak/" ".bash_profile-anaconda3.bak" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".android/" ".emacs.d/" "Emacs/" "mongodb/" "Books/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".gnome2/" "blackscreen.pptx" "Pictures/" ".local/" ".CFUserTextEncoding" "VirtualBox VMs/" ".gnupg/" ".DS_Store" "go/" ".vim/" ".virtualenvs/" "temp/" "Beyond/" ".docker/" ".bash_profile.bak" ".condarc" "Music/" "Personal/" ".config/" "Research/" "../" "./")
 
  ("/Users/jcasse/temp/perfecta/" (23430 50241 531690 83000) "ist.json" "weapons.json" "../" "./")
 
@@ -146,8 +152,6 @@
 
  ("/Users/jcasse/temp/" (23430 49913 668616 771000) "main.cpp" "perfecta/" "filename" "a.out" "../" "./")
 
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/" (23430 49732 610976 180000) "perfecta-python-interface/" "data/" ".git/" "docker-run-wrapper.sh" ".ipynb_checkpoints/" ".gitignore" ".dockerignore" "README.md" "perfecta-web-ide.conf" ".gitmodules" "__pycache__/" "2018.08.29.08.56.52.153/" "2018.08.29.08.30.46.770/" "2018.08.29.08.55.58.710/" "Dockerfile" "perfecta-web-ide.wsgi" "test/" "requirements.txt" "LICENSE" "app/" "config.py" ".DS_Store" "run.py" "../" "./")
-
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/" (23430 49729 693807 929000) "fancytree.py" "init.py" "classes.py" "templates/" "helper.py" "static/" "utils.py" "filesysteminterface.py" "forms.py" "__pycache__/" "keys.py" "ide_endpoints.py" "__init__.py" ".DS_Store" "process_registry.py" "web_service.py" "diskfilesystem.py" "../" "./")
 
  ("/Users/jcasse/Dropbox/orgmode/" (23430 47944 540644 103000) "utils.org" "os.org" "windows.org" "cs.org" "cra.org" "ai.org" "mongodb.org" "ubuntu.org" "sandman.org" "perfecta.org" "quantum.org" "statistics.org" "emacs.org" "go.org" "altana.org" "web.org" "macbookpro.org" "development.org" "T430s.org" "lisp.org" "gnu.org" "machinelearning.org" "todo.org" "javascript.org" "notes.org" "news.org" ".DS_Store" "docker.org" "git.org" "datascience.org" "python.org" "cpp.org" "../" "./")
@@ -155,8 +159,6 @@
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/" (23425 64131 11998 189000) "README.md" "CTestTestfile.cmake" "cmake_install.cmake" "Makefile" "CMakeFiles/" "CMakeLists.txt" "test_1.cpp" "../" "./")
 
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/" (23425 64745 461346 430000) "main.cpp" "README.md" "helloworld.h" "Makefile" "CMakeLists.txt" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/machine-learning/" (23427 24488 905881 579000) "pcim/" ".git/" ".gitignore" "README.md" "hello-world/" "../" "./")
 
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/" (23426 58388 645038 603000) "README.md" "test.cpp" "CMakeLists.txt" "../" "./")
 
@@ -322,8 +324,6 @@
  ("/Users/jcasse/CodeLab/Web/Resize/" (23288 63098 482770 133000) "javascript/" "README.md" "stylesheet/" "index.html" ".index.html.swp" "../" "./")
 
  ("/Users/jcasse/Personal/GitHub/website/frontend-client/javascript/" (23289 54762 262793 829000) "resize.js" "hide-tree.js" "tree.js" "edit.js" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/website/frontend-client/stylesheet/" (23289 51487 460912 918000) "footer.css" "layout.css" "resize.css" "navbar.css" "content.css" "marquee.css" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
