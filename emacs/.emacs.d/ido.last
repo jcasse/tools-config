@@ -56,10 +56,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/"
  "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
  "/Users/jcasse/Personal/GitHub/machine-learning/pcim/"
  "/Users/jcasse/Dropbox/orgmode/"
- "/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/"
  "/Users/jcasse/temp/perfecta/"
  "/Users/jcasse/temp/"
  "/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/tex/"
@@ -124,6 +124,8 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/" (23436 5924 793224 534000) "main.cpp" "pcim.h" "traj.h" "vartraj.h" "vartrajrange.h" "README.md" "pcimtest.h" "var.h" "data.h" "CMakeLists.txt" "../" "./")
+
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/" (23433 32991 10218 307000) "src/" "CMakeCache.txt" ".gitignore" "CMakeFiles/" "test/" "../" "./")
 
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/" (23433 30616 383052 62000) "src/" "thirdparty/" "Doxyfile" "build/" "lib/" "README.md" "flymd.md" "docs/" "include/" "ChangeLog" "bin/" "test/" "CMakeLists.txt" "tools/" "flymd.html" "../" "./")
@@ -141,8 +143,6 @@
  ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/" (23430 60162 659973 219000) "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "init.el" "auto-save-list/" "tramp" "auto_saves.saves-78093-Juans-MacBook-Pro.local~" "local-packages/" "places" "abbrev_defs" "eshell/" ".DS_Store" "ido.last" "../" "./")
 
  ("/Users/jcasse/temp/perfecta/" (23430 50241 531690 83000) "ist.json" "weapons.json" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/" (23430 59088 229610 731000) "main.cpp" "traj.h" "vartraj.h" "README.md" "var.h" "CMakeLists.txt" "../" "./")
 
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/" (23428 16336 187347 821000) ".idea/" "randomboxes.py" "account.py" "project.py" "endpoints.py" "perfectaRunAbuse.py" "doc/" "processAbuse.py" "endpoints.sh" "badLogin.py" "test_suit.py" "dragdrop.py" "selenium_helpers.py" "processTest.py" "treeabuse.py" "perfectaUIabuse.py" "newFile.py" "../" "./")
 

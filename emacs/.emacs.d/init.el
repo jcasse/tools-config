@@ -5,23 +5,23 @@
 ;;; Code:
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Start Emacs Server
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (server-start)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Load local packages
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (if (file-exists-p (expand-file-name "~/.emacs.d/local-packages"))
     (setq load-path
           (cons (expand-file-name "~/.emacs.d/local-packages") load-path)))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Package Manager
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (require 'package)
 (setq package-enable-at-startup nil)
@@ -37,8 +37,8 @@
 ;; Initialize the package manager, refreshing the package-archive-contents.
 ;; We'll activate the previously-downloaded and installed packages in a
 ;; little bit.
-;; Added by Package.el.  This must come before configurations of
-;; installed packages.  Don't delete this line.  If you don't want it,
+;; Added by Package.el. This must come before configurations of
+;; installed packages. Don't delete this line. If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 (package-initialize)
@@ -50,9 +50,9 @@
 (eval-when-compile
     (require 'use-package))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Global Key Bindings
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; C-c R select recent files.
 (global-set-key (kbd "C-c R")
@@ -83,9 +83,9 @@
 (global-set-key (kbd "M-[") 'doc-prev)
 (global-set-key (kbd "M-]") 'doc-next)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; This is a hook that executes before a source code file is loaded.
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Source code files
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (add-hook 'prog-mode-hook
           '(lambda ()
@@ -96,8 +96,7 @@
              (display-line-numbers-mode)
              (rainbow-mode)))
 
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Markdown
 ;;
 ;; To render the markdown in html in default browser:
@@ -110,7 +109,7 @@
 ;; https://jblevins.org/projects/markdown-mode/
 ;; https://codemirror.net/mode/gfm/
 ;; https://leanpub.com/markdown-mode/read#gfm
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (use-package markdown-mode
   :ensure t
@@ -122,7 +121,7 @@
   :config
   (use-package flymd))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; CMake
 ;;
 ;; cmake-mode (Syntax highlighting)
@@ -133,7 +132,7 @@
 ;; To compile code:
 ;;   M-x cmake-project-configure-project
 ;;   M-x compile
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (require 'cmake-mode)
 (setq auto-mode-alist
@@ -144,13 +143,14 @@
 
 (require 'cmake-project)
 (defun maybe-cmake-project-hook ()
+  "Automatically load Cmake Mode."
   (if (file-exists-p "CMakeLists.txt") (cmake-project-mode)))
 (add-hook 'c-mode-hook 'maybe-cmake-project-hook)
 (add-hook 'c++-mode-hook 'maybe-cmake-project-hook)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; General preferences.
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; General preferences
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Disable annoying notifications.
 (setq ring-bell-function 'ignore)
@@ -164,13 +164,14 @@
 ;;(set-frame-parameter (selected-frame) 'alpha '(85 . 50))
 ;;(add-to-list 'default-frame-alist '(alpha . (85 . 50)))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; File Backup.
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; File Backup
+;;
 ;; http://pragmaticemacs.com/emacs/auto-save-and-backup-every-save/
 ;; https://emacs.stackexchange.com/questions/33/put-all-backups-into-one-backup-
 ;;       folder
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 (let ((backup-dir "~/.emacs.d/backups")
       (auto-saves-dir "~/.emacs.d/auto_saves"))
   (dolist (dir (list backup-dir auto-saves-dir))
@@ -178,9 +179,9 @@
       (make-directory dir t)))
   (setq backup-directory-alist `(("." . ,backup-dir))
         auto-save-file-name-transforms `((".*" ,auto-saves-dir t))
-        auto-save-list-file-prefix (concat auto-saves-dir ".saves-")
-        tramp-backup-directory-alist `((".*" . ,backup-dir))
-        tramp-auto-save-directory auto-saves-dir))
+        auto-save-list-file-prefix (concat auto-saves-dir ".saves-"))
+  (defvar tramp-backup-directory-alist `((".*" . ,backup-dir)))
+  (defvar tramp-auto-save-directory auto-saves-dir))
 
 (setq backup-by-copying t    ; Don't delink hardlinks
       delete-old-versions t  ; Clean up the backups
@@ -188,9 +189,9 @@
       kept-new-versions 5    ; keep some new versions
       kept-old-versions 2)   ; and some old ones, too
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; FONT
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Deftheme themes can override the default face.  This means that customizing
 ;; the default face, as I used to do, accomplishes nothing anyway.  Might as
@@ -226,12 +227,13 @@
 
 (set-face-attribute 'default nil :height 160)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Orgmode.
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;; Transparent encryption and decryption
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Org Mode
+;;
+;; Automatic encryption and decryption
 ;; https://orgmode.org/worg/org-tutorials/encrypting-files.html
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 (require 'epa-file)
 (epa-file-enable)
 
@@ -245,7 +247,10 @@
 ;; brilliant concept.
 
 (defun my-enable-ascii-armor-before-epa-save()
-  "Sets `epa-armor' to t right before any file that looks like *.asc is saved.  The assumption is that such files are meant to be encrypted with EasyPG and, unlike EasyPG's default, ought to be ascii-armored.  Note that *.asc files must _also_ match the epa-file-name-regexp."
+  "Set epa-armor to t right before any file ending with .asc is saved.
+The assumption is that such files are meant to be encrypted with EasyPG and,
+unlike EasyPG's default, ought to be ascii-armored.  Note that *.asc files
+must_also_ match the 'epa-file-name-regexp'."
   (if (and (featurep 'epa-file)
            (string-match "\\.asc$" (format "%s" (buffer-file-name))))
       (progn
@@ -253,7 +258,9 @@
         (setq epa-armor t))))
 
 (defun my-disable-ascii-armor-after-epa-save()
-  "Sets `epa-armor' to nil right after any file that looks like *.asc is saved.  Emacs's documentation currently frowns upon just leaving `epa-armor' permanently set to t."
+  "Set `epa-armor' to nil right after any file ending with .asc is saved.
+Emacs's documentation currently frowns upon just leaving `epa-armor'
+permanently set to t."
   (if (and (featurep 'epa-file)
            (string-match "\\.asc$" (format "%s" (buffer-file-name))))
       (progn
@@ -263,12 +270,15 @@
 (add-hook 'before-save-hook 'my-enable-ascii-armor-before-epa-save)
 (add-hook 'after-save-hook  'my-disable-ascii-armor-after-epa-save)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Evil Mode.
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Vim
+;;
 ;; Evil package. Vim emulator.
 ;; https://blog.aaronbieber.com/2016/01/23/living-in-evil.html
+;;
+;; C-z to toggle Emacs state within Evil Mode (Vim key-bindings on/off)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 (use-package evil
   :ensure t
   :config
@@ -285,9 +295,46 @@
     (global-evil-surround-mode))
 
   (use-package evil-indent-textobject
-    :ensure t))
+    :ensure t)
 
-;; Installs Magit (Emacs' most popular Git interface)
+  ;; Activate Emacs state (disable Vim key bindings) in these modes:
+  (dolist (mode '(ag-mode
+                  custom-mode
+                  custom-new-theme-mode
+                  eshell-mode
+                  flycheck-error-list-mode
+                  git-rebase-mode
+                  octopress-mode
+                  octopress-server-mode
+                  octopress-process-mode
+                  org-capture-mode
+                  sunshine-mode
+                  term-mode))
+    (add-to-list 'evil-emacs-state-modes mode))
+
+  (delete 'term-mode evil-insert-state-modes)
+  (delete 'eshell-mode evil-insert-state-modes)
+
+  ;; Set Vim Normal mode key bindings in Occur Mode.
+  (add-hook 'occur-mode-hook
+            (lambda ()
+              (evil-add-hjkl-bindings occur-mode-map 'emacs
+                (kbd "/")       'evil-search-forward
+                (kbd "n")       'evil-search-next
+                (kbd "N")       'evil-search-previous
+                (kbd "C-d")     'evil-scroll-down
+                (kbd "C-u")     'evil-scroll-up
+                (kbd "C-w C-w") 'other-window)))
+
+  )
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Git
+;;
+;; Magit Mode
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Installs Magit (Emacs' most popular Git porcelain)
 (use-package magit)
 
 ;; Installs mic-paren (like advanced version of show-paren-mode)
@@ -305,7 +352,7 @@
 ;;   (hippie-expand 0))
 ;; (define-key read-expression-map [(shift tab)] 'hippie-unexpand)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; PATH and exec-path
 ;;
 ;; The problem on Mac OS X is that Mac OS does not set the environment the
@@ -328,35 +375,20 @@
 ;;   - (setq exec-path (append '("<path1>" "<path2" ... ) exec-path))
 ;;
 ;; NOTE: The variable load-path is for EmacsLisp libraries.
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; Get PATH from bash environment
-;; (defun get-bash-path ()
-;;   (interactive)
-;;   (let ((path (shell-command-to-string "if [[ -f ~/.bash_profile ]]; then . ~/.bash_profile; elif [[ -f ~/.bashrc ]]; then . ~/.bashrc; fi; echo -n $PATH")))
-;;     (message "path: %s" path)
-;;     (setenv "PATH" path)
-;;     (setq exec-path
-;;           (append
-;;            (split-string-and-unquote path ":")
-;;            exec-path)))
-;;   )
-;; (get-bash-path)
-
-;; (setq exec-path (append exec-path '("/usr/local/bin")))
-
-;; The exec-path-from-shell package does the same thing as the function above!
 ;;(exec-path-from-shell-initialize)
 (when (memq window-system '(mac ns)) (exec-path-from-shell-initialize))
 ;;(use-package exec-path-from-shell
 ;;  :init
 ;;  (exec-path-from-shell-initialize))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; LaTeX
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; AUCTeX (Emacs' TeX package)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; Installs AUCTeX (Emacs' TeX package)
 (use-package tex
   :defer t
   :ensure auctex
@@ -369,18 +401,13 @@
   (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
   (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
   (add-hook 'LaTeX-mode-hook 'display-line-numbers-mode)
-  (setq reftex-plug-into-AUCTeX t))
+  (defvar reftex-plug-into-AUCTeX t))
 
 (add-hook 'emacs-lisp-mode-hook 'display-line-numbers-mode)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Document View
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-(add-hook 'doc-view-mode-hook
-          (lambda ()
-            (auto-revert-mode))) ;update document image upon change
-
+;;
 ;; Auto fit image to window width
 ;; Does not work strait up because the PDF file is first converted to PNG
 ;; and then displayed as PNG. So, the (doc-view-fit-width-to-window) fails
@@ -388,13 +415,17 @@
 ;; There is a solution that employs timers:
 ;; http://lists.gnu.org/archive/html/emacs-devel/2012-03/msg00407.html
 ;; For now, do it by hand: M-x doc-view-fit-width-to-window RET
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(add-hook 'doc-view-mode-hook
+          (lambda ()
+            (auto-revert-mode))) ;update document image upon change
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Go Mode
 ;; https://github.com/dominikh/go-mode.el
 ;; https://johnsogg.github.io/emacs-golang
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Install additional Go tools (godoc, etc.)
 ;; Execute from shell:
@@ -403,9 +434,9 @@
 ;; Automatically call gofmt on save
 (add-hook 'before-save-hook 'gofmt-before-save)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Variables set via Emacs interface.
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; NOTE: We chose to enable display-line-numbers-mode on a per-mode basis
 ;;       instead of global, because we were not able to disable it for
@@ -462,9 +493,9 @@
  '(line-number-current-line ((t (:inherit line-number :foreground "dark magenta")))))
 (put 'dired-find-alternate-file 'disabled nil)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;  CC Mode (for editing files containing C, C++, Objective-C, Java, etc.)
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (setq-default c-basic-offset 4)
 
@@ -475,15 +506,18 @@
 
 (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Make the _ a character in a word (Emacs does not consider it a character)
+(add-hook 'c-mode-common-hook #'(lambda () (modify-syntax-entry ?_ "w")))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Line Numbers
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (setq column-number-mode t)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Spell checking.
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Spell checking
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; brew install aspell
 
@@ -496,11 +530,11 @@
 (quietly-read-abbrev-file)
 
 ; Enable abbrev-mode by default.
-(setq default-abbrev-mode t)
+(defvar default-abbrev-mode t)
 
 ;; I'm tired of losing all my lovely in-memory abbrevs just because Emacs
 ;; closed unexpectedly, so save them every day at 6 AM.
-(setq my-abbrev-timer (run-at-time "6:00am" 86400 'write-abbrev-file))
+(defvar my-abbrev-timer (run-at-time "6:00am" 86400 'write-abbrev-file))
 
 ;; By setting flyspell-abbrev-p and flyspell-use-global-abbrev-table-p to
 ;; true in Custom, spelling corrections are now automatically added to the
@@ -513,12 +547,12 @@
 (setq flyspell-issue-message-flag nil)
 (setq flyspell-use-global-abbrev-table-p t)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Editor.
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Editor
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; Column 80 marker
-(setq whitespace-style '(face empty tabs lines-tail trailing))
+;; Column 80 marker.
+(defvar whitespace-style '(face empty tabs lines-tail trailing))
 (global-whitespace-mode t)
 
 ;; Set Mode Line border.
@@ -529,8 +563,11 @@
 (set-face-background 'vertical-border "gray")
 (set-face-foreground 'vertical-border (face-background 'vertical-border))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Miscellaneous
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (fset 'yes-or-no-p 'y-or-n-p)
+
+(provide 'init)
+;;; init.el ends here

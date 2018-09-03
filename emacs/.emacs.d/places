@@ -1,5 +1,11 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_vartraj.cpp" . 7361)
+(("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartrajrange.h" . 1150)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/pcimtest.h"))
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 19333)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/pcimtest.h" . 7317)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/traj.h" . 761)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_vartraj.cpp" . 7361)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
   (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/README.md"))
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/README.md" . 1244)
@@ -9,20 +15,14 @@
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_traj.cpp" . 1281)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/CMakeLists.txt"))
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/traj.h" . 961)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartrajrange.h" . 598)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/data.h" . 506)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartraj.h"))
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/pcim.h" . 8216)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/pcimtest.h" . 7247)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartraj.h" . 4385)
  ("/Users/jcasse/Dropbox/data/data.asc" . 7356)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/CMakeLists.txt" . 409)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_vartrajrange.cpp" . 1729)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/" . 290)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/var.h" . 204)
- ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 20778)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_var.cpp" . 950)
  ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 8590)
  ("/Users/jcasse/Dropbox/orgmode/news.org" . 410)
