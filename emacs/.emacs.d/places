@@ -1,27 +1,66 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 18984)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartrajrange.h" . 1150)
+(("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/init.el" . 13556)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/test/test_model.cpp" . 70)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src/traj.cpp" . 20)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/co-clustering-with-pcim-features/Makefile" . 569)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/co-clustering-with-pcim-features/pcim/serial.h" . 352)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/co-clustering-with-pcim-features/pcim/"
+  (dired-filename . "/Users/jcasse/Beyond/Bitbucket/machine-learning/co-clustering-with-pcim-features/pcim/pcim.cpp"))
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/"
+  (dired-filename . "/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim"))
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src/main.cpp" . 2494)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/build/src/"
+  (dired-filename . "/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/build/src/libpcim.dylib"))
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/test/"
+  (dired-filename . "/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/test/.."))
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src/pcim.h" . 36171)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/"
+  (dired-filename . "/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src"))
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src/"
+  (dired-filename . "/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src/traj.cpp"))
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/build/" . 291)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/test/CMakeLists.txt" . 1695)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src/CMakeLists.txt" . 82)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/test/test_traj.cpp" . 1106)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/CMakeLists.txt" . 1548)
+ ("/Users/jcasse/Dropbox/data/data.asc" . 5044)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/c-pcim-feature-generation/"
+  (dired-filename . "/Users/jcasse/Beyond/Bitbucket/machine-learning/c-pcim-feature-generation/Command.cpp"))
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/co-clustering-with-pcim-features/"
+  (dired-filename . "/Users/jcasse/Beyond/Bitbucket/machine-learning/co-clustering-with-pcim-features/pcim"))
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src/var.h" . 971)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src/traj.h" . 1754)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src/vartrajrange.h" . 1333)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src/vartraj.h" . 4588)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src/load.h" . 21233)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/co-clustering-with-pcim-features/pcim/traj.h" . 4144)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/co-clustering-with-pcim-features/pcim/test.cpp" . 373)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/bin/"
+  (dired-filename . "/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/bin/README.md"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/"
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/CMakeLists.txt"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/CMakeLists.txt" . 657)
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/co-clustering-with-pcim-features/includes.h" . 519)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/" . 290)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/pcimtest.h"))
+  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/CMakeLists.txt"))
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/main.cpp" . 219)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/data.h" . 506)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/traj.h" . 646)
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartrajrange.h" . 1150)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/pcimtest.h" . 7317)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/traj.h" . 761)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_vartraj.cpp" . 7361)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
   (dired-filename . "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/README.md"))
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/README.md" . 1244)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/README.md" . 219)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/"
-  (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/test"))
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_traj.cpp" . 1281)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/"
   (dired-filename . "/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/CMakeLists.txt"))
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/data.h" . 506)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/pcim.h" . 8216)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/vartraj.h" . 4385)
- ("/Users/jcasse/Dropbox/data/data.asc" . 7356)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/CMakeLists.txt" . 409)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_vartrajrange.cpp" . 1729)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/" . 290)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/var.h" . 204)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/test_var.cpp" . 950)
  ("/Users/jcasse/Dropbox/orgmode/emacs.org" . 8590)
@@ -38,12 +77,10 @@
   (dired-filename . "/Users/jcasse/temp/perfecta"))
  ("/Users/jcasse/temp/perfecta/"
   (dired-filename . "/Users/jcasse/temp/perfecta/ist.json"))
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/main.cpp" . 219)
  ("/Users/jcasse/temp/perfecta/ist.json" . 254)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js/project.js" . 69411)
  ("/Users/jcasse/temp/perfecta/weapons.json" . 1706)
  ("/Users/jcasse/Dropbox/orgmode/cpp.org" . 59)
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/CMakeLists.txt" . 749)
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/web_service.py" . 8906)
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/tex/pcim.tex" . 23457)
  ("/Users/jcasse/Dropbox/orgmode/development.org" . 1093)

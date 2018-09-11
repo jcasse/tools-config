@@ -84,85 +84,35 @@
 (global-set-key (kbd "M-]") 'doc-next)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Source code files
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-(add-hook 'prog-mode-hook
-          '(lambda ()
-             (paren-activate)
-             (turn-on-auto-fill)
-             (flycheck-mode)
-             (flyspell-prog-mode)
-             (display-line-numbers-mode)
-             (rainbow-mode)))
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Markdown
+;; PATH and exec-path
 ;;
-;; To render the markdown in html in default browser:
-;;   M-x flymd-flyit
+;; The problem on Mac OS X is that Mac OS does not set the environment the
+;; same when you call a program from the global UI or when you call it from a
+;; shell. This means that running Emacs from a shell will result in different
+;; environment variables being set than when you run it from the finder. This
+;; is especially annoying if you set environment variables in .bashrc or
+;; similar, as that won't affect the "global" Emacs.
 ;;
-;; Markdown Mode - syntax highlighting
-;; GFM Mode (GitHub Flavored Markdown) - syntax highlighting
-;; Flymd - HTML rendering
+;; NOTE:
+;;       https://www.emacswiki.org/emacs/ExecPath
+;;       https://emacs.stackexchange.com/questions/550/exec-path-and-path
+;;            PATH: its value is used by Emacs' shell and eshell
+;;       exec-path: its value is used by Emacs when searching for programs
+;;       Emacs does set exec-path from the value of PATH on startup, but will
+;;       not look at it again later.
 ;;
-;; https://jblevins.org/projects/markdown-mode/
-;; https://codemirror.net/mode/gfm/
-;; https://leanpub.com/markdown-mode/read#gfm
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-(use-package markdown-mode
-  :ensure t
-  :commands (markdown-mode gfm-mode)
-  :mode (("README\\.md\\'" . gfm-mode)
-         ("\\.md\\'" . markdown-mode)
-         ("\\.markdown\\'" . markdown-mode))
-  :init (setq markdown-command "multimarkdown")
-  :config
-  (use-package flymd))
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; CMake
+;; Adding to the variables can be done in two ways:
+;;   - (add-to-list 'exec-path "<path>") ;this adds to the beginning
+;;   - (setq exec-path (append '("<path1>" "<path2" ... ) exec-path))
 ;;
-;; cmake-mode (Syntax highlighting)
-;; https://gitlab.kitware.com/cmake/community/wikis/doc/editors/Emacs
-;;
-;; cmake-project (CMake build process integration with Emacs)
-;; https://github.com/alamaison/emacs-cmake-project
-;; To compile code:
-;;   M-x cmake-project-configure-project
-;;   M-x compile
+;; NOTE: The variable load-path is for EmacsLisp libraries.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(require 'cmake-mode)
-(setq auto-mode-alist
-      (append
-       '(("CMakeLists\\.txt\\'" . cmake-mode))
-       '(("\\.cmake\\'" . cmake-mode))
-       auto-mode-alist))
-
-(require 'cmake-project)
-(defun maybe-cmake-project-hook ()
-  "Automatically load Cmake Mode."
-  (if (file-exists-p "CMakeLists.txt") (cmake-project-mode)))
-(add-hook 'c-mode-hook 'maybe-cmake-project-hook)
-(add-hook 'c++-mode-hook 'maybe-cmake-project-hook)
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; General preferences
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;; Disable annoying notifications.
-(setq ring-bell-function 'ignore)
-
-;; Disable scroll bar.
-(toggle-scroll-bar -1)
-
-;; Transparent.
-;;(set-frame-parameter (selected-frame) 'alpha '(<active> . <inactive>))
-;;(set-frame-parameter (selected-frame) 'alpha <both>)
-;;(set-frame-parameter (selected-frame) 'alpha '(85 . 50))
-;;(add-to-list 'default-frame-alist '(alpha . (85 . 50)))
+;;(exec-path-from-shell-initialize)
+(when (memq window-system '(mac ns)) (exec-path-from-shell-initialize))
+;;(use-package exec-path-from-shell
+;;  :init
+;;  (exec-path-from-shell-initialize))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; File Backup
@@ -190,7 +140,7 @@
       kept-old-versions 2)   ; and some old ones, too
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; FONT
+;; Font
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Deftheme themes can override the default face.  This means that customizing
@@ -271,6 +221,31 @@ permanently set to t."
 (add-hook 'after-save-hook  'my-disable-ascii-armor-after-epa-save)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Markdown
+;;
+;; To render the markdown in html in default browser:
+;;   M-x flymd-flyit
+;;
+;; Markdown Mode - syntax highlighting
+;; GFM Mode (GitHub Flavored Markdown) - syntax highlighting
+;; Flymd - HTML rendering
+;;
+;; https://jblevins.org/projects/markdown-mode/
+;; https://codemirror.net/mode/gfm/
+;; https://leanpub.com/markdown-mode/read#gfm
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(use-package markdown-mode
+  :ensure t
+  :commands (markdown-mode gfm-mode)
+  :mode (("README\\.md\\'" . gfm-mode)
+         ("\\.md\\'" . markdown-mode)
+         ("\\.markdown\\'" . markdown-mode))
+  :init (setq markdown-command "multimarkdown")
+  :config
+  (use-package flymd))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Vim
 ;;
 ;; Evil package. Vim emulator.
@@ -326,6 +301,9 @@ permanently set to t."
                 (kbd "C-u")     'evil-scroll-up
                 (kbd "C-w C-w") 'other-window)))
 
+  ;; Search current word
+  (global-set-key (kbd "C-*") 'evil-search-symbol-forward)
+  (global-set-key (kbd "C-#") 'evil-search-symbol-backward)
   )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -353,35 +331,57 @@ permanently set to t."
 ;; (define-key read-expression-map [(shift tab)] 'hippie-unexpand)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; PATH and exec-path
+;; CMake
 ;;
-;; The problem on Mac OS X is that Mac OS does not set the environment the
-;; same when you call a program from the global UI or when you call it from a
-;; shell. This means that running Emacs from a shell will result in different
-;; environment variables being set than when you run it from the finder. This
-;; is especially annoying if you set environment variables in .bashrc or
-;; similar, as that won't affect the "global" Emacs.
+;; cmake-mode (Syntax highlighting)
+;; https://gitlab.kitware.com/cmake/community/wikis/doc/editors/Emacs
 ;;
-;; NOTE:
-;;       https://www.emacswiki.org/emacs/ExecPath
-;;       https://emacs.stackexchange.com/questions/550/exec-path-and-path
-;;            PATH: its value is used by Emacs' shell and eshell
-;;       exec-path: its value is used by Emacs when searching for programs
-;;       Emacs does set exec-path from the value of PATH on startup, but will
-;;       not look at it again later.
-;;
-;; Adding to the variables can be done in two ways:
-;;   - (add-to-list 'exec-path "<path>") ;this adds to the beginning
-;;   - (setq exec-path (append '("<path1>" "<path2" ... ) exec-path))
-;;
-;; NOTE: The variable load-path is for EmacsLisp libraries.
+;; cmake-project (CMake build process integration with Emacs)
+;; https://github.com/alamaison/emacs-cmake-project
+;; To compile code:
+;;   M-x cmake-project-configure-project
+;;   M-x compile
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;;(exec-path-from-shell-initialize)
-(when (memq window-system '(mac ns)) (exec-path-from-shell-initialize))
-;;(use-package exec-path-from-shell
-;;  :init
-;;  (exec-path-from-shell-initialize))
+(require 'cmake-mode)
+(setq auto-mode-alist
+      (append
+       '(("CMakeLists\\.txt\\'" . cmake-mode))
+       '(("\\.cmake\\'" . cmake-mode))
+       auto-mode-alist))
+
+(require 'cmake-project)
+(defun maybe-cmake-project-hook ()
+  "Automatically load Cmake Mode."
+  (if (file-exists-p "CMakeLists.txt") (cmake-project-mode)))
+(add-hook 'c-mode-hook 'maybe-cmake-project-hook)
+(add-hook 'c++-mode-hook 'maybe-cmake-project-hook)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Source code files
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(add-hook 'prog-mode-hook
+          '(lambda ()
+             (paren-activate)
+             (turn-on-auto-fill)
+             (flycheck-mode)
+             (flyspell-prog-mode)
+             (display-line-numbers-mode)
+             (rainbow-mode)))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Go Mode
+;; https://github.com/dominikh/go-mode.el
+;; https://johnsogg.github.io/emacs-golang
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Install additional Go tools (godoc, etc.)
+;; Execute from shell:
+;; go get golang.org/x/tools/cmd/...
+
+;; Automatically call gofmt on save
+(add-hook 'before-save-hook 'gofmt-before-save)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; LaTeX
@@ -420,19 +420,6 @@ permanently set to t."
 (add-hook 'doc-view-mode-hook
           (lambda ()
             (auto-revert-mode))) ;update document image upon change
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Go Mode
-;; https://github.com/dominikh/go-mode.el
-;; https://johnsogg.github.io/emacs-golang
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;; Install additional Go tools (godoc, etc.)
-;; Execute from shell:
-;; go get golang.org/x/tools/cmd/...
-
-;; Automatically call gofmt on save
-(add-hook 'before-save-hook 'gofmt-before-save)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Variables set via Emacs interface
@@ -512,10 +499,10 @@ permanently set to t."
 (add-hook 'c-mode-common-hook #'(lambda () (modify-syntax-entry ?_ "w")))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Line Numbers
+;;  Compilation
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(setq column-number-mode t)
+(setq compilation-scroll-output 'first-error)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Spell checking
@@ -553,6 +540,9 @@ permanently set to t."
 ;; Editor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; Line numbers.
+(setq column-number-mode t)
+
 ;; Column 80 marker.
 (defvar whitespace-style '(face empty tabs lines-tail trailing))
 (global-whitespace-mode t)
@@ -564,6 +554,24 @@ permanently set to t."
 ;; Vertical divider.
 (set-face-background 'vertical-border "gray")
 (set-face-foreground 'vertical-border (face-background 'vertical-border))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; General preferences
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Disable annoying notifications.
+(setq ring-bell-function 'ignore)
+
+;; Disable scroll bar.
+(toggle-scroll-bar -1)
+
+;; Transparent.
+;;(set-frame-parameter (selected-frame) 'alpha '(<active> . <inactive>))
+;;(set-frame-parameter (selected-frame) 'alpha <both>)
+;;(set-frame-parameter (selected-frame) 'alpha '(85 . 50))
+;;(add-to-list 'default-frame-alist '(alpha . (85 . 50)))
+
+(setq scroll-conservatively 10000)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Miscellaneous

@@ -2,6 +2,9 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/" . "build/")
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/" . "co-clustering-with-pcim-features/")
+ ("/Users/jcasse/Beyond/Bitbucket/" . "machine-learning/")
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/" . "build/")
  ("/Users/jcasse/Personal/GitHub/machine-learning/decision-tree/" . "build/")
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/" . "build/")
@@ -45,25 +48,27 @@
  ("/Users/jcasse/Personal/GitHub/" . "machine-learning/")
  ("/Users/jcasse/Personal/" . "GitHub/")
  ("/Users/jcasse/Beyond/GitHub/" . "perfecta-web-ide/")
- ("/Users/jcasse/Beyond/" . "GitHub/")
+ ("/Users/jcasse/Beyond/" . "Bitbucket/")
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/" . "templates/")
  ("/Applications/Emacs.app/Contents/" . "MacOS/")
  ("/Applications/Emacs.app/" . "Contents/")
  ("/Applications/" . "Lisp-Applications/")
  ("/" . "Users/")
- ("/Users/jcasse/" . "Beyond/")
+ ("/Users/jcasse/" . "Personal/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/jcasse/Dropbox/data/"
+ "/Users/jcasse/Personal/GitHub/machine-learning/pcim/"
+ "/Users/jcasse/Beyond/Bitbucket/machine-learning/co-clustering-with-pcim-features/"
+ "/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/"
  "/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/"
  "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/"
- "/Users/jcasse/Personal/GitHub/machine-learning/pcim/"
  "/Users/jcasse/Dropbox/orgmode/"
  "/Users/jcasse/temp/perfecta/"
  "/Users/jcasse/temp/"
  "/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/tex/"
- "/Users/jcasse/Dropbox/data/"
  "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/"
  "/Users/jcasse/Personal/GitHub/machine-learning/"
  "/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/"
@@ -104,12 +109,12 @@
  "/Users/jcasse/Dropbox/emacs/.emacs.d/"
  "/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/"
  "/Users/jcasse/Dropbox/vim/"
- "/Users/jcasse/Dropbox/emacs/"
- "/home/juan/Dropbox/emacs/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "data.asc"
+ "Makefile"
  "README.md"
  "cpp.org"
  "main.cpp"
@@ -118,55 +123,84 @@
  "traj.h"
  "vartraj.h"
  "pcim.pdf"
- "data.asc"
- "helloworld"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/" (23436 5924 793224 534000) "main.cpp" "pcim.h" "traj.h" "vartraj.h" "vartrajrange.h" "README.md" "pcimtest.h" "var.h" "data.h" "CMakeLists.txt" "../" "./")
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/build/" (23440 29471 277241 977000) ".gitignore" "../" "./")
 
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/" (23433 32991 10218 307000) "src/" "CMakeCache.txt" ".gitignore" "CMakeFiles/" "test/" "../" "./")
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/test/" (23440 15039 549258 12000) "test_vartraj.cpp" "test_var.cpp" "README.md" "test_traj.cpp" "test_model.cpp" "CMakeLists.txt" "test_vartrajrange.cpp" "../" "./")
 
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/" (23433 30616 383052 62000) "src/" "thirdparty/" "Doxyfile" "build/" "lib/" "README.md" "flymd.md" "docs/" "include/" "ChangeLog" "bin/" "test/" "CMakeLists.txt" "tools/" "flymd.html" "../" "./")
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/" (23440 7958 455956 828000) "src/" "thirdparty/" "Doxyfile" "build/" "lib/" "README.md" "flymd.md" "docs/" "include/" "ChangeLog" "bin/" "test/" "CMakeLists.txt" "tools/" "flymd.html" "../" "./")
 
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/" (23432 26802 547675 604000) "perfecta-python-interface/" "data/" ".git/" "docker-run-wrapper.sh" ".ipynb_checkpoints/" ".gitignore" ".dockerignore" "README.md" "perfecta-web-ide.conf" ".gitmodules" "__pycache__/" "2018.08.29.08.56.52.153/" "2018.08.30.14.59.14.616/" "2018.08.29.08.30.46.770/" "2018.08.29.08.55.58.710/" "Dockerfile" "perfecta-web-ide.wsgi" "test/" "requirements.txt" "LICENSE" "app/" "config.py" ".DS_Store" "run.py" "../" "./")
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/" (23432 26776 148891 24000) "fancytree.py" "init.py" "classes.py" "templates/" "helper.py" "static/" "utils.py" "filesysteminterface.py" "forms.py" "__pycache__/" "keys.py" "ide_endpoints.py" "__init__.py" ".DS_Store" "process_registry.py" "web_service.py" "diskfilesystem.py" "../" "./")
 
- ("/Users/jcasse/" (23433 30051 496480 754000) ".viminfo.tmp" ".conda/" ".viminfo" ".bash_history" ".mongorc.js" ".gitconfig" ".cache/" ".python_history" "Downloads/" "anaconda3/" ".Xauthority" "AndroidStudioProjects/" ".bash_profile" "Documents/" ".jupyter/" ".ipynb_checkpoints/" ".Trash/" "Dropbox/" ".gradle/" ".dbshell" "Applications/" ".vimrc" "Movies/" ".ssh/" ".anaconda/" ".vimbak/" ".bash_profile-anaconda3.bak" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".android/" ".emacs.d/" "Emacs/" "mongodb/" "Books/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".gnome2/" "blackscreen.pptx" "Pictures/" ".local/" ".CFUserTextEncoding" "VirtualBox VMs/" ".gnupg/" ".DS_Store" "go/" ".vim/" ".virtualenvs/" "temp/" "Beyond/" ".docker/" ".bash_profile.bak" ".condarc" "Music/" "Personal/" ".config/" "Research/" "../" "./")
+ ("/Users/jcasse/.emacs.d/" (23439 56256 825067 659000) "#!Users!jcasse!Dropbox!tools-config!emacs!.emacs.d!init.el#" "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "init.el" "auto-save-list/" "auto_saves.saves-63498-Juans-MBP.charter.com~" "tramp" "local-packages/" "places" "abbrev_defs" "eshell/" ".DS_Store" "ido.last" "../" "./")
+
+ ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/" (23439 56256 825067 659000) "#!Users!jcasse!Dropbox!tools-config!emacs!.emacs.d!init.el#" "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "init.el" "auto-save-list/" "auto_saves.saves-63498-Juans-MBP.charter.com~" "tramp" "local-packages/" "places" "abbrev_defs" "eshell/" ".DS_Store" "ido.last" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/" (23432 26776 161465 106000) ".idea/" "randomboxes.py" "account.py" "project.py" "endpoints.py" "perfectaRunAbuse.py" "doc/" "processAbuse.py" "endpoints.sh" "badLogin.py" "test_suit.py" "dragdrop.py" "selenium_helpers.py" "processTest.py" "treeabuse.py" "perfectaUIabuse.py" "newFile.py" "../" "./")
+
+ ("/Users/jcasse/Downloads/" (23437 40992 812430 327000) "flymd-master/" "IDE-Service.exe.zip" "1520-exploiting-generative-models-in-discriminative-classifiers.pdf" "pcim.pdf" "Archive.zip" "texbook.tex" "Test-Concept-Ordering-01.lisp" "10.2307_20203821.txt" "ISTPort-subset.tar.gz" "a-model-for-temporal-dependencies-in-event-streams (2).bib" "eigen-eigen-36fd1ba04c12.tar.gz" "kdd04-cross-assoc.pdf" "boost_1_67_0.tar.bz2" "poisson-networks-a-model-for-structured-point-processes.bib" "eStmt_2018-06-17.pdf" "Pattern Matcher Reference Manual v87.docx" "ISTPort/" "SandMan_Design_ShF0.docx" "graph.pdf" "Statement_Aug 2018.pdf" "texbook.log" "casse.tex" "a-model-for-temporal-dependencies-in-event-streams.bib" "cmake-3.12.1-Darwin-x86_64.dmg" "doc.tex" "Statement_Jul 2018.pdf" "poster.pdf" "SandMan POC Exec Presentation v4.8.pptx" "poisson-networks-a-model-for-structured-point-processes (1).bib" "auto/" "cks12.tex" "flymd-master.zip" "Sandman mind mapping v3.pptx" "Rip Rap (2) Pelican Reef.png" "slidesexemplars.png" "Define-Concept-Blueprint%5b1%5d.lisp" "eStmt_2018-07-17.pdf" "Archive/" "a-model-for-temporal-dependencies-in-event-streams (1).bib" "boost_1_68_0.tar.bz2" "Diagnosis.pdf" "SandMan POC Exec Presentation v4.8.pptx.zip" "Resume 2018.pdf" "doc.pdf" ".DS_Store" "PerfectaRules.xlsx" "boost_1_57_0.tar.gz" "eigen-eigen-b3f3d4950030.tar.gz" "c-pcim.pdf" "kdd04-cross-assoc.ppt" "Lato2OFL.zip" "slides.pdf" "kdd_cocluster.pdf" "casse.pdf" "conjoint-modeling-of-temporal-dependencies-in-event-streams.bib" "../" "./")
+
+ ("/Users/jcasse/" (23439 11309 922533 6000) ".viminfo.tmp" ".conda/" ".viminfo" ".bash_history" ".mongorc.js" ".gitconfig" ".cache/" ".python_history" "Downloads/" "anaconda3/" ".Xauthority" "AndroidStudioProjects/" ".bash_profile" "Documents/" ".jupyter/" ".ipynb_checkpoints/" ".Trash/" "Dropbox/" ".gradle/" ".dbshell" "Applications/" ".vimrc" "Movies/" ".ssh/" ".anaconda/" ".vimbak/" ".bash_profile-anaconda3.bak" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".android/" ".emacs.d/" "Emacs/" "mongodb/" "Books/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".gnome2/" "blackscreen.pptx" "Pictures/" ".local/" ".CFUserTextEncoding" "VirtualBox VMs/" ".gnupg/" ".DS_Store" "go/" ".vim/" ".virtualenvs/" "temp/" "Beyond/" ".docker/" ".bash_profile.bak" ".condarc" "Music/" "Personal/" ".config/" "Research/" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/bin/" (23438 43780 268549 936000) "README.md" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/" (23438 43780 283319 230000) "src/" "CMakeCache.txt" "cmake_install.cmake" "Makefile" "CMakeFiles/" "test/" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/include/" (23438 43780 269143 370000) "README.md" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/lib/" (23438 43780 270088 486000) "README.md" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/thirdparty/" (23438 43780 288195 396000) "README.md" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/tools/" (23438 43780 264194 753000) "README.md" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/" (23438 43780 288451 398000) "src/" "thirdparty/" "Doxyfile" "build/" "lib/" "README.md" "docs/" "include/" "Makefile" "ChangeLog" "bin/" "test/" "CMakeLists.txt" "tools/" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/" (23438 43780 268264 123000) "README.md" "CTestTestfile.cmake" "cmake_install.cmake" "Makefile" "CMakeFiles/" "CMakeLists.txt" "test_1.cpp" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/" (23438 43780 289875 160000) "main.cpp" "README.md" "helloworld.h" "Makefile" "CMakeLists.txt" "../" "./")
+
+ ("/Users/jcasse/Dropbox/data/" (23432 1559 318540 245000) "data.asc" ".#data.asc" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/tex/" (23438 43780 551230 502000) "pcim.bbl" "pcim.pdf" "bibliography.bib" "pcim.tex" "pcim.out" "auto/" "pcim.blg" "pcim.aux" "pcim.log" "../" "./")
+
+ ("/Users/jcasse/Dropbox/orgmode/" (23430 60391 456742 302000) "utils.org" "os.org" "windows.org" "cs.org" "cra.org" "ai.org" "mongodb.org" "ubuntu.org" "sandman.org" "perfecta.org" "quantum.org" "statistics.org" "emacs.org" "go.org" "altana.org" "web.org" "macbookpro.org" "development.org" "T430s.org" "lisp.org" "gnu.org" "machinelearning.org" "todo.org" "javascript.org" "notes.org" "news.org" ".DS_Store" "docker.org" "git.org" "datascience.org" "python.org" "cpp.org" "../" "./")
+
+ ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/" (23438 45573 391924 679000) "perfecta-python-interface/" "data/" ".git/" "docker-run-wrapper.sh" ".ipynb_checkpoints/" ".gitignore" ".dockerignore" "README.md" "perfecta-web-ide.conf" ".gitmodules" "__pycache__/" "2018.08.29.08.56.52.153/" "2018.08.30.14.59.14.616/" "2018.08.29.08.30.46.770/" "2018.08.29.08.55.58.710/" "Dockerfile" "perfecta-web-ide.wsgi" "test/" "requirements.txt" "LICENSE" "app/" "config.py" ".DS_Store" "run.py" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/src/" (23438 43780 634810 314000) "main.cpp" "pcim.h" "traj.h" "vartraj.h" "vartrajrange.h" "README.md" "pcimtest.h" "var.h" "data.h" "CMakeLists.txt" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/" (23438 50245 388415 416000) "src/" "thirdparty/" "Doxyfile" "build/" "lib/" "README.md" "flymd.md" "docs/" "include/" "ChangeLog" "bin/" "test/" "CMakeLists.txt" "tools/" "flymd.html" "../" "./")
+
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/pcim/src/" (23438 64683 686121 845000) "main.cpp" "pcim.h" "load.cpp" "traj.h" "vartraj.h" "vartrajrange.h" "README.md" "var.h" "load.h" "CMakeLists.txt" "pcim.cpp" "traj.cpp" "../" "./")
+
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/co-clustering-with-pcim-features/pcim/" (23437 41749 651375 122000) "akitest.cpp" "akipcim.h" "pcim.h" "load.cpp" "newfiles.zip" "aki.cpp" "akipred.cpp" "traj.h" "serial.h" "mod-pcim.zip" "test.cpp" "pcim.cpp.bak" "load.h" "pcim.cpp" "traj.cpp" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/" (23438 43780 174255 878000) "pcim/" "machine-learning/" "ai/" "resume/" "chla/" "codelab/" ".DS_Store" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/" (23438 43780 635011 651000) "c-pcim-feature-generation/" "pcim/" ".git/" ".gitignore" "README.md" "hello-world/" "co-clustering-with-pcim-features/" "../" "./")
+
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/co-clustering-with-pcim-features/" (23437 42129 644801 973000) "includes.h" "x11colors.csv" "pcim/" "main.cpp" "utility.cpp" "Search.o" "chla.o" "chla.h" "fonts/" "utility.o" "pcim.o" "kale.cpp" "Command.o" "Command.h" "print.o" "kale.h" "kale.o" "traj.o" "main.m" "Analytics.h" "Analytics.o" "README" "graph.o" "doit" "Fisherdriver.m" "meta/" "Analytics.cpp" "coclustering/" "Command.cpp" "Matrix.o" "Kmeans.o" "graph.cpp" "Spectral.m" "Coclustering.o" "Makefile" "load.o" "rand_index.h" "PCIMKmeans.o" "FisherOutput.csv" ".DS_Store" "kale.sh" "plot.o" "plot.cpp" "chla.cpp" "Fisher_Score_clustering.m" "main.o" "../" "./")
+
+ ("/Users/jcasse/Beyond/Bitbucket/machine-learning/" (23438 43927 77779 29000) "c-pcim-feature-generation/" "pcim/" ".git/" ".gitignore" "README.md" "hello-world/" "co-clustering-with-pcim-features/" "../" "./")
+
+ ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/build/" (23437 32266 693792 645000) ".gitignore" "../" "./")
+
+ ("/Users/jcasse/Beyond/Bitbucket/" (23437 21142 132246 118000) "machine-learning/" "../" "./")
+
+ ("/Users/jcasse/Dropbox/" (23371 60461 994898 0) "data/" ".dropbox.cache/" ".dropbox" "Public/" "orgmode/" "Icon
+" ".DS_Store" "tools-config/" "This is your Dropbox.txt" "../" "./")
 
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/bin/" (23425 48932 399804 665000) "README.md" "../" "./")
 
- ("/Users/jcasse/Personal/GitHub/machine-learning/" (23432 13113 695638 879000) "pcim/" ".git/" ".gitignore" "README.md" "hello-world/" "../" "./")
-
- ("/Users/jcasse/.emacs.d/" (23430 60162 659973 219000) "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "init.el" "auto-save-list/" "tramp" "auto_saves.saves-78093-Juans-MacBook-Pro.local~" "local-packages/" "places" "abbrev_defs" "eshell/" ".DS_Store" "ido.last" "../" "./")
-
- ("/Users/jcasse/Dropbox/tools-config/emacs/.emacs.d/" (23430 60162 659973 219000) "backups/" "elpa/" "recentf" "history" "network-security.data" "auto_saves/" "init.el" "auto-save-list/" "tramp" "auto_saves.saves-78093-Juans-MacBook-Pro.local~" "local-packages/" "places" "abbrev_defs" "eshell/" ".DS_Store" "ido.last" "../" "./")
-
  ("/Users/jcasse/temp/perfecta/" (23430 50241 531690 83000) "ist.json" "weapons.json" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/test/" (23428 16336 187347 821000) ".idea/" "randomboxes.py" "account.py" "project.py" "endpoints.py" "perfectaRunAbuse.py" "doc/" "processAbuse.py" "endpoints.sh" "badLogin.py" "test_suit.py" "dragdrop.py" "selenium_helpers.py" "processTest.py" "treeabuse.py" "perfectaUIabuse.py" "newFile.py" "../" "./")
-
- ("/Users/jcasse/Downloads/" (23430 47648 446960 394000) "flymd-master/" "IDE-Service.exe.zip" "1520-exploiting-generative-models-in-discriminative-classifiers.pdf" "pcim.pdf" "Archive.zip" "texbook.tex" "Test-Concept-Ordering-01.lisp" "10.2307_20203821.txt" "ISTPort-subset.tar.gz" "kdd04-cross-assoc.pdf" "boost_1_67_0.tar.bz2" "poisson-networks-a-model-for-structured-point-processes.bib" "eStmt_2018-06-17.pdf" "Pattern Matcher Reference Manual v87.docx" "ISTPort/" "SandMan_Design_ShF0.docx" "graph.pdf" "texbook.log" "casse.tex" "a-model-for-temporal-dependencies-in-event-streams.bib" "cmake-3.12.1-Darwin-x86_64.dmg" "doc.tex" "Statement_Jul 2018.pdf" "poster.pdf" "SandMan POC Exec Presentation v4.8.pptx" "poisson-networks-a-model-for-structured-point-processes (1).bib" "auto/" "cks12.tex" "flymd-master.zip" "Rip Rap (2) Pelican Reef.png" "slidesexemplars.png" "Define-Concept-Blueprint%5b1%5d.lisp" "eStmt_2018-07-17.pdf" "Archive/" "a-model-for-temporal-dependencies-in-event-streams (1).bib" "boost_1_68_0.tar.bz2" "Diagnosis.pdf" "SandMan POC Exec Presentation v4.8.pptx.zip" "Resume 2018.pdf" "doc.pdf" ".DS_Store" "PerfectaRules.xlsx" "c-pcim.pdf" "kdd04-cross-assoc.ppt" "Lato2OFL.zip" "slides.pdf" "kdd_cocluster.pdf" "casse.pdf" "conjoint-modeling-of-temporal-dependencies-in-event-streams.bib" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/docs/tex/" (23428 44779 781558 762000) "pcim.bbl" "pcim.pdf" "bibliography.bib" "pcim.tex" "pcim.out" "auto/" "pcim.blg" "pcim.aux" "pcim.log" "../" "./")
 
  ("/Users/jcasse/temp/" (23430 49913 668616 771000) "main.cpp" "perfecta/" "filename" "a.out" "../" "./")
 
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/" (23430 49729 693807 929000) "fancytree.py" "init.py" "classes.py" "templates/" "helper.py" "static/" "utils.py" "filesysteminterface.py" "forms.py" "__pycache__/" "keys.py" "ide_endpoints.py" "__init__.py" ".DS_Store" "process_registry.py" "web_service.py" "diskfilesystem.py" "../" "./")
-
- ("/Users/jcasse/Dropbox/orgmode/" (23430 47944 540644 103000) "utils.org" "os.org" "windows.org" "cs.org" "cra.org" "ai.org" "mongodb.org" "ubuntu.org" "sandman.org" "perfecta.org" "quantum.org" "statistics.org" "emacs.org" "go.org" "altana.org" "web.org" "macbookpro.org" "development.org" "T430s.org" "lisp.org" "gnu.org" "machinelearning.org" "todo.org" "javascript.org" "notes.org" "news.org" ".DS_Store" "docker.org" "git.org" "datascience.org" "python.org" "cpp.org" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/test/" (23425 64131 11998 189000) "README.md" "CTestTestfile.cmake" "cmake_install.cmake" "Makefile" "CMakeFiles/" "CMakeLists.txt" "test_1.cpp" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/src/" (23425 64745 461346 430000) "main.cpp" "README.md" "helloworld.h" "Makefile" "CMakeLists.txt" "../" "./")
-
  ("/Users/jcasse/Personal/GitHub/machine-learning/pcim/test/" (23426 58388 645038 603000) "README.md" "test.cpp" "CMakeLists.txt" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/build/" (23425 64763 873703 955000) "src/" "CMakeCache.txt" "cmake_install.cmake" "Makefile" "CMakeFiles/" "test/" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/" (23425 64168 822962 242000) "src/" "thirdparty/" "Doxyfile" "build/" "lib/" "README.md" "docs/" "include/" "Makefile" "ChangeLog" "bin/" "test/" "CMakeLists.txt" "tools/" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/bin/" (23425 47895 507799 916000) "README.md" "../" "./")
 
  ("/Users/jcasse/Personal/GitHub/machine-learning/decision-tree/build/" (23425 38920 920750 668000) "src/" "CMakeCache.txt" "cmake_install.cmake" "Makefile" "CMakeFiles/" "../" "./")
 
@@ -176,17 +210,9 @@
 
  ("/Users/jcasse/Personal/GitHub/machine-learning/decision-tree/src/" (23424 39859 867078 544000) "main.cpp" "README.md" "decisiontree.h" "CMakeLists.txt" "decisiontree.cpp" "../" "./")
 
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/tools/" (23423 28542 637452 333000) "README.md" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/thirdparty/" (23423 28432 939384 718000) "README.md" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/lib/" (23423 28142 766356 296000) "README.md" "../" "./")
-
  ("/usr/" (23047 12938 731413 917000) "share/" "X11R6/" "X11/" "lib/" "local/" "sbin/" "libexec/" "standalone/" "bin/" "../" "./")
 
  ("/Users/jcasse/.matplotlib/" (23377 10932 379482 869000) "fontList.json" "fontList.py3k.cache" "matplotlibrc" "tex.cache/" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/include/" (23423 28000 826298 416000) "README.md" "../" "./")
 
  ("/Users/jcasse/Personal/GitHub/machine-learning/hello-world/doc/" (23423 24995 525285 866000) "README.md" "../" "./")
 
@@ -197,8 +223,6 @@
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/js/" (23422 61021 698020 952000) "goldenlayout.min.js" "jquery.fancytree-all-deps.min.js.map" "project.kb-editor.js" "jquery.fancytree.persist.js" "moment.min.js" "ace/" "jquery.contextMenu.min.js.map" "jquery-3.2.1.min.map" "jquery.hashchange.min.js" "base.js" "project.js" "jquery.fancytree.dnd.js" "vis.min.js" "moment-timezone-with-data.min.js" "js.cookie.js" "bootstrap.min.js" "popper-1.12.9.min.js" "jquery.fancytree-all-deps.min.js" "jquery.fancytree.filter.js" "jquery.contextMenu.min.js" "vis.map" "jquery-ui.min.js" "jquery-3.2.1.min.js" "bootstrap-datetimepicker.min.js" "../" "./")
 
  ("/Users/jcasse/Beyond/GitHub/perfecta-python-interface/blperfecta/" (23421 38579 894041 216000) "xform.py" "exceptions.py" "examples.py" "examples/" "utils.py" "__pycache__/" "__init__.py" "constants.py" "utils_helper.py" "bin/" "requirements.txt" "perfecta_helper.py" ".DS_Store" "perfecta.py" "../" "./")
-
- ("/Users/jcasse/Dropbox/data/" (23411 18879 651281 283000) "data.asc" "../" "./")
 
  ("/Users/jcasse/Dropbox/tools-config/bash/" (23421 44163 785285 283000) ".bash_profile" "doc/" ".gitignore" ".bashrc" "../" "./")
 
@@ -211,11 +235,6 @@
  ("/Users/jcasse/Dropbox/tools-config/emacs/" (23423 15497 481683 877000) ".gitignore" ".emacs.d/" ".DS_Store" "../" "./")
 
  ("/Users/jcasse/Beyond/" (23423 13259 62112 750000) "Samsung (Andrew) (Brief) 04.pptx" "IP/" "WellMD.pptx" "Bitbucket/" ".ipynb_checkpoints/" "HR/" "Data Science/" "GitHub/" "Samsung (Andrew) 01.pptx" "README.md" "Projects/" ".DS_Store" "../" "./")
-
- ("/Users/jcasse/Dropbox/" (23371 60460 994898 0) "data/" ".dropbox.cache/" ".dropbox" "Public/" "orgmode/" "Icon
-" ".DS_Store" "tools-config/" "This is your Dropbox.txt" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/" (23422 60766 513366 265000) "pcim/" "machine-learning/" "ai/" "resume/" "chla/" "codelab/" ".DS_Store" "../" "./")
 
  ("/Users/jcasse/Personal/" (23420 18120 705650 871000) "fonts/" "Volkswagen Credit -- One-time Payment Confirmation.pdf" "Spectrum/" "Bank of America _ Online Banking _ Transfer Funds _ Between Your Accounts at Bank of America.pdf" "Tracy Jones/" "Renters Insurance Policy.pdf" "billinghistory (3).pdf" "Volkswagen Credit -- One-time Payment Confirmation Tax.pdf" "Make a One-Time Payment.pdf" "American Express _ Payment Center.pdf" "GitHub/" "Pay Bill_ Success _ My Account _ SoCalGas.pdf" "VW/" "American Express _ Payment Center Feb 2018.pdf" "billinghistory (2).pdf" "Evertec Inc, - Payment Receipt 2018-01-24.pdf" "Pay Rent-2018-02.pdf" "Pay Rent.pdf" "Evertec Inc, - Payment Receipt.pdf" "billinghistory (1).pdf" "Glendale Water & Power - Online Services.pdf" "Lance Bao Gmail - Recommendation.pdf" "Spectrum.net Billing.pdf" "Bank of America _ Online Banking _ Bill Pay _ Payment Confirmation.pdf" "Residential Turn Off Service Program Print.pdf" "Bank of America _ Online Banking _ Accounts _ Account Details _ Account Activity.pdf" ".DS_Store" "billinghistory.pdf" "Altana/" "American Express - Payments.pdf" "Pay Rent History.pdf" "Bank of America _ Online Banking _ Bill Pay _ e-Bills _ Pay e-Bill_ Scheduled.pdf" "../" "./")
 
@@ -308,22 +327,6 @@
  ("/Users/jcasse/.gnupg/" (23317 55786 994360 667000) "S.gpg-agent.browser" "trustdb.gpg" "gpg-agent.conf" "pubring.kbx" "random_seed" "S.gpg-agent" "private-keys-v1.d/" "S.gpg-agent.ssh" "S.gpg-agent.extra" "../" "./")
 
  ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/app/static/" (23312 26198 224180 269000) "fonts/" "plasticity40.png" "mutable.js" "Weapons.lisp" "chandas1-2.ttf" "WeaponsInput.txt" "plasticity400.png" "js/" "images/" "css/" ".DS_Store" "favicon.ico" "skin-lion/" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta/" (23097 50617 992407 782000) ".git/" "COPYRIGHT" "scripts/" "VERSION" ".gitignore" "Lisp-Applications/" "README.md" "builds/" "Interface-Directory/" "CHANGES" "Documentation/" "../" "./")
-
- ("/Users/jcasse/Beyond/GitHub/perfecta-web-ide/input/" (23209 20446 846934 787000) "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/codelab/Web/Tabs/frontend-client/" (23296 29745 255175 770000) "javascript/" "stylesheet/" "index.html" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/codelab/Web/Tabs/frontend-client/javascript/" (23296 29745 254510 591000) "resize.js" "hide-tree.js" "tree.js" "edit.js" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/codelab/Web/Tabs/frontend-client/stylesheet/" (23296 29745 257877 583000) "footer.css" "layout.css" "resize.css" "navbar.css" "content.css" "marquee.css" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/codelab/Web/Tabs/" (23290 16305 905376 640000) "backend-server/" ".gitignore" "README.md" "frontend-client/" ".DS_Store" "../" "./")
-
- ("/Users/jcasse/CodeLab/Web/Resize/" (23288 63098 482770 133000) "javascript/" "README.md" "stylesheet/" "index.html" ".index.html.swp" "../" "./")
-
- ("/Users/jcasse/Personal/GitHub/website/frontend-client/javascript/" (23289 54762 262793 829000) "resize.js" "hide-tree.js" "tree.js" "edit.js" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
